@@ -1,1 +1,760 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="favicon.png" sizes="36x32">
+  <title>LBA5</title>
+</head>
+<body>
+<div class="wrap">
+  <nav>
+   <ul class="top-menu">
+         <li>
+        <div class="Menu-item">
+         <a href="javascript:void(0)" onclick="openModal(7)">CALM</a>
+        </div>
+      </li>
+	<li>
+        <div class="Tools">
+         <a href="javascript:void(0)" onclick="openModal(8)">Tools</a>
+        </div>
+      </li>
+	<li><a href="https://fcmenu-dub-regionalized.corp.amazon.com/LBA5" target="_blank">FC Menu</a></li>
+        <li><a href="https://eu.scada.rme.amazon.dev/web/home?0"_blank">SCADA</a></li>
+        <li><a href="https://vantage.amazon.com/app/flash-dashboards/site-overview?customer=AMZN&warehouse=LBA5&region=eu-west-1&zones=paKivaA02%2CpaKivaA03%2CpaKivaA04" target="_blank">Site Overview</a></li>
+        <li><a href="https://vantage.amazon.com/app/fulfillment-dashboards/floor-issue-overview?customer=AMZN&warehouse=LBA5&region=eu-west-1&zones=paKivaA02%2CpaKivaA03%2CpaKivaA04" target="_blank">Floor Issue Overview</a></li>
+	<li><a href="https://kfrs-ui-na.amazon.com/errorCodes.jsp?version=21.3.1" target="_blank">DU error codes</a></li>
+	<li><a href="Code of Conduct.xlsx" target="_blank">Code of Conduct</a></li>
+	<li><a href="Shared Document Address.txt" target="_blank">Shared Docs</a></li>
+	<li><a href="https://vantage.amazon.com/app/fulfillment-dashboards/current-station-work?customer=AMZN&warehouse=LBA5&region=eu-west-1&zones=paKivaA02%2CpaKivaA03%2CpaKivaA04" target="_blank">Staffing Summary</a></li>
+        <li><a href="https://roboscout.amazon.com/app/adjacentbins/" target="_blank">Adjacent Bins</a></li>
+        <li><a href="http://localhost:5965/barcodegenerator#" target="_blank">Printmon</a></li>
+        <li><a href="https://history-manager-dub.dub.proxy.amazon.com/home" target="_blank">AR History Manager</a></li>
+        <li><a href="https://arrm-portal-eu-dub.dub.proxy.amazon.com/storage/snapshot?customer=AMZN&warehouse=LBA5&zone=paKivaA04&level=0&autoQuery=true" target="_blank">Floor Snapshot</a></li>
+        <li><a href="https://tiny.amazon.com/vq5rc5kg/iGraph" target="_blank">Drive Usage</a></li>
+        <li><a href="https://t.corp.amazon.com/issues?q=%7B%22AND%22%3A%7B%22status%22%3A%7B%22OR%22%3A%5B%22Assigned%22%2C%7B%22OR%22%3A%5B%22Researching%22%2C%7B%22OR%22%3A%5B%22Work%20In%20Progress%22%2C%7B%22OR%22%3A%5B%22Pending%22%2C%7B%22OR%22%3A%5B%22Resolved%22%2C%22Closed%22%5D%7D%5D%7D%5D%7D%5D%7D%5D%7D%2C%22keyword%22%3A%22(LBA5)%22%7D%7D" target="_blank">TICKETS</a></li>
+        <li><a href="https://prod-eu.archer.robotics.amazon.dev/landing?buildingID=LBA5" target="_blank">ARCHER TT</a></li>
+ 	<li><a href="https://w.amazon.com/bin/view/Acronym_Central/#E" target="_blank">ACRONYM</a></li>
+	<li><a href="https://ar-podmanager-dub.dub.proxy.amazon.com/" target="_blank">POD MANAGER</a></li>
+	<li><a href="https://transfers-portal-eu.aka.amazon.com/pod/research-pod/" target="_blank">Research POD</a></li>
+    </ul>
+    <ul class="primary">
+      <li>
+        <a href="#">Menu</a>
+        <ul class="sub">
+          <li><a href="https://fcmenu-dub-regionalized.corp.amazon.com/secure/login" target="_blank">AMAZON LBA5 Menu Secure</a></li>
+	<li><a href="https://amazon.enterprise.slack.com/">SLACK</a></li>
+	<li><a href="https://clients.chime.aws/win/latest">Amazon Chime</a></li>
+          <li><a href="https://fcmenu-dub-regionalized.corp.amazon.com/LBA5/calmCode" target="_blank">Amazon CALM Code</a></li>
+          <li><a href="https://fcmenu-dub-regionalized.corp.amazon.com/LBA5/laborTrackingKiosk" target="_blank">Amazon Labour Kiosk</a></li>
+	  <li><a href="https://hub.amazon.work/" target="_blank">Amazon HUB</a></li>
+          <li><a href="https://linktr.ee/lba5" target="_blank">LBA5 News</a></li>
+	  <li><a href="http://w.amazon.com" target="_blank">Amazon WIKI</a></li>
+          <li><a href="https://chatops.aces.amazon.dev/" target="_blank">Chat Ops</a></li>
+  	  <li><a href="https://email-list.amazon.com/email-list/" target="_blank">E-mail groups</a></li>
+  	  <li><a href="https://it-help.amazon.com/" target="_blank">IT support</a></li>
+	  <li><a href="https://password-v2.corp.amazon.com/" target="_blank">Password Tool</a></li>
+  	  <li><a href="https://permissions.amazon.com/" target="_blank">Permission groups</a></li>
+  	  <li><a href="https://phonetool.amazon.com/users/" target="_blank">Phonetool</a></li>
+          <li><a href="https://policy.a2z.com/" target="_blank">Policy 2.0</a></li>
+	  <li><a href="https://e-swag.corp.amazon.com/account/view" target="_blank">SWAG Store</a></li>
+  	  <li><a href="https://amazon.awsapps.com/workdocs" target="_blank">Work Docs</a></li>
+          <li><a href="https://drive.corp.amazon.com/" target="_blank">Drive</a></li>
+        </ul>
+      </li>
+<li>
+        <a href="#">QB SOS</a>
+        <ul class="sub">
+          <li><a href="https://fclm-portal.amazon.com/reports/processPathRollup?warehouseId=LBA5" target="_blank">FCLM</a></li>
+	<li><a href="https://amazon.enterprise.slack.com/">SLACK</a></li>
+	<li><a href="https://clients.chime.aws/win/latest">Amazon Chime</a></li>
+	  <li><a href="https://vantage.amazon.com/app/fulfillment-dashboards/current-station-work?customer=AMZN&warehouse=LBA5&region=eu-west-1&zones=paKivaA02%2CpaKivaA03%2CpaKivaA04"_blank">Station Work Status</a></li>
+          <li><a href="https://vantage.amazon.com/app/fulfillment-dashboards/floor-issue-overview?customer=AMZN&warehouse=LBA5&region=eu-west-1&zones=paKivaA02%2CpaKivaA03%2CpaKivaA04" target="_blank">Floor Issue Overview</a></li>
+  	  <li><a href="https://vantage.amazon.com/app/flash-dashboards/site-overview?customer=AMZN&warehouse=LBA5&region=eu-west-1&zones=paKivaA02%2CpaKivaA03%2CpaKivaA04" target="_blank">Site Overview</a></li>
+  	  <li><a href="https://vantage.amazon.com/app/fulfillment-dashboards/station-map?customer=AMZN&warehouse=LBA5&region=eu-west-1&zones=paKivaA02&startTime=0600" target="_blank">Station MAP</a></li>
+	  <li><a href="https://vantage.amazon.com/app/fulfillment-dashboards/pod-gap-root-causes?customer=AMZN&warehouse=LBA5&region=eu-west-1&zones=paKivaA02%2CpaKivaA03%2CpaKivaA04" target="_blank">Pod Gap Root Cause</a></li>
+  	  <li><a href="https://vantage.amazon.com/app/pod-portal/pod-details?region=eu-west-1&customer=AMZN" target="_blank">Pod Details</a></li>
+  	  <li><a href="https://dub.alps-basecamp.lamps.amazon.dev/LBA5/plan/daily?id=955f3e4f-44f4-4268-a367-71fc94a64075" target="_blank">ALPS</a></li>
+          <li><a href="https://prod-eu.archer.robotics.amazon.dev/landing?buildingID=LBA5" target="_blank">Archer TT</a></li>
+	  <li><a href="https://monitorportal.amazon.com/igraph?SchemaName1=Service&DataSet1=Prod&Marketplace1=LBA5&HostGroup1=ALL&Host1=ALL&ServiceName1=FCOutboundModelServiceCreation&MethodName1=ALL&Client1=ALL&MetricClass1=NONE&Instance1=NONE&Metric1=BufferLimit.PPAFE1.INDUCT.MaxUnits&Period1=OneMinute&Stat1=avg&Label1=FCOutboundModelServiceCreation%20ALL%20BufferLimit.PPAFE1.INDUCT.MaxUnits&SchemaName2=Service&Metric2=BufferLimit.PPAFE1.INDUCT.MinUnits&Label2=FCOutboundModelServiceCreation%20ALL%20BufferLimit.PPAFE1.INDUCT.MinUnits&SchemaName3=Service&Metric3=PlannedLaborGroupHeadcount.INDUCT%3APPAFE1&Label3=Headcount.INDUCT%3APPAFE1&UserLabel3=Headcount.INDUCT%3APPAFE1&SchemaName4=Service&ServiceName4=SkynetCapacityModelService&MethodName4=RetrieveRodeoBuffers&Metric4=WorkPoolSize.PPAFE1.PickingPicked&Label4=PPAFE1.PickingPicked&UserLabel4=PPAFE1.PickingPicked&SchemaName5=Service&ServiceName5=FCOutboundModelServiceCreation&MethodName5=ALL&Metric5=BufferLimit.PPSingleMedium.PACK.MaxUnits&Label5=FCOutboundModelServiceCreation%20ALL%20BufferLimit.PPSingleMedium.PACK.MaxUnits&SchemaName6=Service&Metric6=BufferLimit.PPSingleMedium.PACK.MinUnits&Label6=FCOutboundModelServiceCreation%20ALL%20BufferLimit.PPSingleMedium.PACK.MinUnits&SchemaName7=Service&Metric7=BufferLimit.PPSingleNoSLAM.PACK.MinUnits&Label7=FCOutboundModelServiceCreation%20ALL%20BufferLimit.PPSingleNoSLAM.PACK.MinUnits&SchemaName8=Service&Metric8=BufferLimit.PPSingleNoSLAM.PACK.MaxUnits&Label8=FCOutboundModelServiceCreation%20ALL%20BufferLimit.PPSingleNoSLAM.PACK.MaxUnits&SchemaName9=Service&ServiceName9=SkynetCapacityModelService&MethodName9=RetrieveRodeoBuffers&Metric9=WorkPoolSize.PPSingleMedium.PickingPicked&Label9=PPSingleMedium.PickingPicked&UserLabel9=PPSingleMedium.PickingPicked&SchemaName10=Service&Metric10=WorkPoolSize.PPSingleNoSLAM.PickingPicked&Label10=PPSingleNoSLAM.PickingPicked&UserLabel10=PPSingleNoSLAM.PickingPicked&SchemaName11=Service&ServiceName11=FCOutboundModelServiceCreation&MethodName11=ALL&Metric11=PlannedLaborGroupHeadcount.PACK%3APPSingleMedium&Label11=Headcount.PACK%3APPSingleMedium&UserLabel11=Headcount.PACK%3APPSingleMedium&SchemaName12=Service&Metric12=PlannedLaborGroupHeadcount.PACK%3APPSingleNoSLAM&Label12=Headcount.PACK%3APPSingleNoSLAM&UserLabel12=Headcount.PACK%3APPSingleNoSLAM&SchemaName13=Service&ServiceName13=SkynetCapacityModelService&MethodName13=RetrieveRodeoBuffers&Metric13=WorkPoolSize.PPSingleNoSLAM.PickingPickedAtDestination&Label13=PPSingleNoSLAM.PickingPickedAtDestination&UserLabel13=PPSingleNoSLAM.PickingPickedAtDestination&SchemaName14=Service&Metric14=WorkPoolSize.PPSingleMedium.PickingPickedAtDestination&Label14=PPSingleMedium.PickingPickedAtDestination&UserLabel14=PPSingleMedium.PickingPickedAtDestination&SchemaName15=Service&Metric15=WorkPoolSize.PPAFE1.PickingPickedAtDestination&Label15=PPAFE1.PickingPickedAtDestination&UserLabel15=PPAFE1.PickingPickedAtDestination&SchemaName16=Service&ServiceName16=FCOutboundModelServiceCreation&MethodName16=ALL&Metric16=BufferLimit.PPSingleNoSlamC1.PACK.MaxUnits&Label16=FCOutboundModelServiceCreation%20ALL%20BufferLimit.PPSingleNoSlamC1.PACK.MaxUnits&SchemaName17=Service&Metric17=BufferLimit.PPSingleNoSlamC1.PACK.MinUnits&Label17=FCOutboundModelServiceCreation%20ALL%20BufferLimit.PPSingleNoSlamC1.PACK.MinUnits&SchemaName18=Service&Metric18=PlannedLaborGroupHeadcount.PACK%3APPSingleNoSlamC1&Label18=FCOutboundModelServiceCreation%20ALL%20PlannedLaborGroupHeadcount.PACK%3APPSingleNoSlamC1&SchemaName19=Service&ServiceName19=SkynetCapacityModelService&MethodName19=RetrieveRodeoBuffers&Metric19=WorkPoolSize.PPSingleNoSlamC1.PickingPicked&Label19=SkynetCapacityModelService%20RetrieveRodeoBuffers%20WorkPoolSize.PPSingleNoSlamC1.PickingPicked&SchemaName20=Service&Metric20=WorkPoolSize.PPSingleNoSlamC1.PickingPickedAtDestination&Label20=SkynetCapacityModelService%20RetrieveRodeoBuffers%20WorkPoolSize.PPSingleNoSlamC1.PickingPickedAtDestination&SchemaName21=Service&ServiceName21=FCOutboundModelServiceCreation&MethodName21=ALL&Metric21=BufferLimit.PPSingleNoSLAM2.PACK.MaxUnits&Label21=FCOutboundModelServiceCreation%20ALL%20BufferLimit.PPSingleNoSLAM2.PACK.MaxUnits&SchemaName22=Service&Metric22=BufferLimit.PPSingleNoSLAM2.PACK.MinUnits&Label22=FCOutboundModelServiceCreation%20ALL%20BufferLimit.PPSingleNoSLAM2.PACK.MinUnits&SchemaName23=Service&Metric23=PlannedLaborGroupHeadcount.PACK%3APPSingleNoSLAM2&Label23=Headcount.INDUCT%3APPSingleNoSLAM2&UserLabel23=Headcount.INDUCT%3APPSingleNoSLAM2&SchemaName24=Service&ServiceName24=SkynetCapacityModelService&MethodName24=RetrieveRodeoBuffers&Metric24=WorkPoolSize.PPSingleNoSLAM2.PickingPicked&Label24=PPSingleNoSLAM2.PickingPicked&UserLabel24=PPSingleNoSLAM2.PickingPicked&SchemaName25=Service&Metric25=WorkPoolSize.PPSingleNoSLAM2.PickingPickedAtDestination&Label25=PPSingleNoSLAM2.PickingPickedAtDestination&UserLabel25=PPSingleNoSLAM2.PickingPickedAtDestination&SchemaName26=Service&ServiceName26=FCOutboundModelServiceCreation&MethodName26=ALL&Metric26=BufferLimit.PPSingleMediumX.PACK.MaxUnits&Label26=FCOutboundModelServiceCreation%20ALL%20BufferLimit.PPSingleMediumX.PACK.MaxUnits&SchemaName27=Service&Metric27=BufferLimit.PPSingleMediumX.PACK.MinUnits&Label27=FCOutboundModelServiceCreation%20ALL%20BufferLimit.PPSingleMediumX.PACK.MinUnits&SchemaName28=Service&ServiceName28=SkynetCapacityModelService&MethodName28=RetrieveRodeoBuffers&Metric28=WorkPoolSize.PPSingleMediumX.PickingPicked&Label28=PPSingleMediumX.PickingPicked&UserLabel28=PPSingleMediumX.PickingPicked&SchemaName29=Service&ServiceName29=FCOutboundModelServiceCreation&MethodName29=ALL&Metric29=PlannedLaborGroupHeadcount.PACK%3APPSingleMediumX&Label29=Headcount.PACK%3APPSingleMediumX&UserLabel29=Headcount.PACK%3APPSingleMediumX&SchemaName30=Service&ServiceName30=SkynetCapacityModelService&MethodName30=RetrieveRodeoBuffers&Metric30=WorkPoolSize.PPSingleMediumX.PickingPickedAtDestination&Label30=PPSingleMediumX.PickingPickedAtDestination&UserLabel30=PPSingleMediumX.PickingPickedAtDestination&HeightInPixels=764&WidthInPixels=866&GraphTitle=Total%20Buffer&TZ=Europe%2FLondon@TZ%3A%20London&ShowGaps=false&ShrinkBoundsToGraphDataLeft=true&LabelLeft=Units&StartTime1=-PT3H&EndTime1=P0D&FunctionExpression1=%28M1*M3%29%2B%28M5*M11%29%2B%28M8*M12%29%2B%28M18*M16%29%2B%28M21*M23%29%2B%28M26*M29%29&FunctionLabel1=MaxUnits%20%5Bcurrent%3A%20%7Blast%7D%5D&FunctionYAxisPreference1=left&FunctionColor1=fff&FunctionExpression2=%28M2*M3%29%2B%28M6*M11%29%2B%28M7*M12%29%2B%28M22*M23%29%2B%28M27*M29%29&FunctionLabel2=MinUnits%20%5Bcurrent%3A%20%7Blast%7D%5D&FunctionYAxisPreference2=left&FunctionColor2=fff&FunctionExpression3=M4%2BM9%2BM10%2BM19%2BM24%2BM28&FunctionLabel3=Total-PickingPicked%20%5Bcurrent%3A%20%7Blast%7D%5D&FunctionYAxisPreference3=left&FunctionColor3=%23ff0000&FunctionExpression4=M13%2BM14%2BM15%2BM25%2BM30&FunctionLabel4=Total-PickingPickedAtDestination%20%5Bcurrent%3A%20%7Blast%7D%5D&FunctionYAxisPreference4=left&FunctionColor4=%2348d1cc&FunctionExpression5=%28%28M1*M3%29%2B%28M5*M11%29%2B%28M8*M12%29%2B%28M18*M16%29%2B%28M21*M23%29%2B%28M26*M29%29%29*1.20&FunctionLabel5=MaxUnits%2B20%25&FunctionYAxisPreference5=left&FunctionColor5=%23888888" target="_blank">Total Buffer</a></li>
+  	  <li><a href="https://prod-eu.manage.robotics.amazon.dev/optic-andon-manager/LBA5" target="_blank">Optic Andon Manager</a></li>
+          <li><a href="https://autoflow-cascade-eu.amazon.com/LBA5/shiftplan/new" target="_blank">Shift Plan</a></li>
+          <li><a href="https://autoflow-cascade-eu.amazon.com/LBA5/zoneLaborDistribution" target="_blank">Zone Distribution</a></li>
+	  <li><a href="https://monitorportal.amazon.com/igraph?SchemaName1=Service&DataSet1=Prod%3AFC&Marketplace1=AMZN%2FLBA5%2FpaKivaA04&HostGroup1=ALL&Host1=ALL&ServiceName1=KivaStorageManagerService&MethodName1=ALL&Client1=ALL&MetricClass1=NONE&Instance1=NONE&Metric1=arrm.drives.active.percent&Period1=OneMinute&Stat1=avg&LiveData1=true&Label1=AMZN%2FLBA5%2FpaKivaA04%20NONE%20NONE&SchemaName2=Service&Marketplace2=AMZN%2FLBA5%2FpaKivaA03&Label2=AMZN%2FLBA5%2FpaKivaA03%20NONE%20NONE&SchemaName3=Service&Marketplace3=AMZN%2FLBA5%2FpaKivaA02&MetricClass3=drive&Instance3=ALL&Label3=AMZN%2FLBA5%2FpaKivaA02%20drive%20ALL&HeightInPixels=441&WidthInPixels=1078&GraphTitle=Drive%20Usage%20%25&Palette=cloudwatch&TZ=Europe%2FLondon@TZ%3A%20London&ShowLegendErrors=false&HorizontalLineLeft1=DU%20above%20here%20pod%20gaps%20start%20%23color%3Dgreen-%20@%2085%2CDrive%20Usage%20Warning%20%23color%3Dorange%20-%20@%2090%2CDrive%20Usage%20critical%20%23color%3Dred%20-%20@%2095&UpperValueLeft=100&LowerValueLeft=0&LabelLeft=Percent&LabelRight=Percent&StartTime1=-PT1H&EndTime1=-PT0H" target="_blank">Drive Usage</a></li>
+          <li><a href="https://arrm-portal-eu-dub.dub.proxy.amazon.com/stations/all-stations?customer=AMZN&warehouse=LBA5&zone=paKivaA04&autoQuery=true#midway" target="_blank">All Station Status</a></li>
+          <li><a href="https://roboscout.amazon.com/analyze/20735/?&sites=(LBA5)&datasource_startDateTime=2025-10-29%2007:30:00&datasource_endDateTime=2025-10-29%2018:00:00&mom_ids=910&osm_ids=&oxm_ids=923&datasource_viz=nvd3Table" target="_blank">APMT</a></li>
+<li><a href="https://roboscout.amazon.com/analyze/20737/2351/?&sites=(LBA5)&datasource_startDate=2025-10-25%2023:00:00&datasource_endDate=2025-10-29%2000:00:00&mom_ids=809&osm_ids=664&oxm_ids=711&datasource_viz=nvd3Table" target="_blank">OPMT</a></li>
+        </ul>
+      </li>
+  <li>
+        <a href="">QB Things</a>
+        <ul class="sub">
+          <li><a href="https://roboscout.amazon.com/analyze/19851/2826/?&sites=(LBA5)&datasource_current_day=false&datasource_startDateTime=2025-10-29%2007:30:00&datasource_endDateTime=2025-10-29%2018:00:00&mom_ids=379%2C426&osm_ids=319&oxm_ids=445&ofm_ids=&datasource_viz=nvd3Table" target="_blank">Turnaway %</a></li>
+	  <li><a href="https://kivascout.amazon.com/analyze/20464/1847/?&sites=(LBA5)&datasource_current_day=false&datasource_startDateTime=2025-10-29%2007:30:00&datasource_endDateTime=2025-10-29%2018:30:00&mom_ids=1840&osm_ids=311&oxm_ids=197&datasource_viz=nvd3Table" target="_blank">% of Drvive utilized</a></li>
+	  <li><a href="https://roboscout.amazon.com/analyze/20990/?&sites=(LBA5)&datasource_current_day=false&datasource_startDateTime=2025-10-29%2007:30:00&datasource_endDateTime=2025-10-29%2018:10:00&mom_ids=1443&osm_ids=978&oxm_ids=1137%2C1976&ofm_ids=598&datasource_viz=nvd3Table" target="_blank">Pick Gap % by floor</a></li>
+	  <li><a href="https://roboscout.amazon.com/analyze/20990/?&sites=(LBA5)&datasource_current_day=false&datasource_startDateTime=2025-10-29%2007:30:00&datasource_endDateTime=2025-10-29%2018:00:00&mom_ids=1443&osm_ids=980&oxm_ids=1134&ofm_ids=602&datasource_viz=nvd3Table" target="_blank">Gap % by station</a></li>
+	  <li><a href="https://roboscout.amazon.com/analyze/20990/?&sites=(LBA5)&datasource_current_day=false&datasource_startDateTime=2025-10-29%2007:30:00&datasource_endDateTime=2025-10-29%2018:30:00&mom_ids=1443&osm_ids=977&oxm_ids=1131&ofm_ids=602&datasource_viz=nvd3Table" target="_blank">Stow gap % by floor</a></li>
+	  <li><a href="https://kivascout.amazon.com/analyze/20464/1847/?&sites=(LBA5)&datasource_current_day=false&datasource_startDateTime=2025-10-29%2008:00:00&datasource_endDateTime=2025-10-29%2018:30:00&mom_ids=1840&osm_ids=311&oxm_ids=197&datasource_viz=nvd3LineChart" target="_blank">DU % by chart</a></li>
+	  <li><a href="https://sim.amazon.com/" target="_blank">SIM</a></li>
+	  <li><a href="https://arrm-portal-eu-dub.dub.proxy.amazon.com/misc/usage?customer=AMZN&warehouse=LBA5&zone=paKivaA04&autoQuery=true"target="_blank">Resource Usage</a></li>
+          <li><a href="https://monitorportal.amazon.com/igraph?SchemaName1=Search&Pattern1=schemaname%3D%24Service%24%20dataset%3D%24Prod%24%20hostgroup%3D%24ALL%24%20host%3D%24ALL%24%20servicename%3D%24KivaChargingPlannerService%24%20methodname%3D%24ALL%24%20client%3D%24ALL%24%20metricclass%3D%24NONE%24%20instance%3D%24NONE%24%20metric%3D%24chapln.status.averageChargeLevel%24%20LBA5&Period1=OneMinute&Stat1=avg&LiveData1=true&HeightInPixels=765&WidthInPixels=1718&GraphTitle=Charge%20Level&Palette=cloudwatch&TZ=Europe%2FLondon@TZ%3A%20Europe%2FLondon&HorizontalLineLeft1=If%20Below%20Line%20-%20AUTOCUT%20SEV2%20-%20@%200.30%2CIf%20Below%20Line%20Escalate-%20@%200.4&LowerValueLeft=.2&LabelLeft=Percent&StartTime1=-PT1H&EndTime1=-PT0H&FunctionExpression1=S1&FunctionLabel1=%7BmetricLabel%7D%20%5Blast%3A%20%7Blast%7D%5D&FunctionYAxisPreference1=left" target="_blank">Charge Level</a></li>
+	  <li><a href="https://picking-console.eu.picking.aft.a2z.com/fc/LBA5/pick-workforce?tableFilters=%7B%22tokens%22%3A%5B%7B%22propertyKey%22%3A%22processPath%22%2C%22propertyLabel%22%3A%22Process%20Path%22%2C%22value%22%3A%22PPAFE1%22%2C%22label%22%3A%22PPAFE1%22%2C%22negated%22%3Afalse%7D%2C%7B%22propertyKey%22%3A%22processPath%22%2C%22propertyLabel%22%3A%22Process%20Path%22%2C%22value%22%3A%22PPSingleMedium%22%2C%22label%22%3A%22PPSingleMedium%22%2C%22negated%22%3Afalse%7D%2C%7B%22propertyKey%22%3A%22processPath%22%2C%22propertyLabel%22%3A%22Process%20Path%22%2C%22value%22%3A%22PPSingleMediumX%22%2C%22label%22%3A%22PPSingleMediumX%22%2C%22negated%22%3Afalse%7D%2C%7B%22propertyKey%22%3A%22processPath%22%2C%22propertyLabel%22%3A%22Process%20Path%22%2C%22value%22%3A%22PPSingleNoSLAM%22%2C%22label%22%3A%22PPSingleNoSLAM%22%2C%22negated%22%3Afalse%7D%2C%7B%22propertyKey%22%3A%22processPath%22%2C%22propertyLabel%22%3A%22Process%20Path%22%2C%22value%22%3A%22PPSingleNoSLAM2%22%2C%22label%22%3A%22PPSingleNoSLAM2%22%2C%22negated%22%3Afalse%7D%5D%2C%22operation%22%3A%22or%22%7D" target="_blank">Picking Console</a></li>
+	  <li><a href="https://prod-na.queuebert.robotics.amazon.dev/views/ARTS/high_sev_portal" target="_blank"> ARTS QueueBert</a></li>
+	  <li><a href="http://shipping-evolve.aka.dub.corp.amazon.com/PPR.html" target="_blank">LBA5 PPR Matrix</a></li>
+ 	<li><a href="https://w.amazon.com/bin/view/CentralFloorHealth/FHMonitorLBA5#HPodGapLinks" target="_blank">LBA5 CFH Monitor</a></li>
+        <li><a href="https://roboscout.amazon.com/analyze/21628/?&sites=(LBA5)&datasource_startDateTime=2025-10-29%2008:00:00&datasource_endDateTime=2025-10-29%2018:30:00&mom_ids=2170%2C2168&osm_ids=1430&oxm_ids=2598%2C2597%2C2784%2C2783&ofm_ids=" target="_blank">Andon Count,Dwell Avg</a></li>
+	<li><a href="https://vantage.amazon.com/app/flash-dashboards/drive-metrics?customer=AMZN&warehouse=LBA5&region=eu-west-1&zones=paKivaA02%2CpaKivaA03%2CpaKivaA04" target="_blank">DU Vantage</a></li>
+	<li><a href="https://eu.prod.fmc.aft.amazon.dev/LBA5/inbound-flow?selected-tab=VL_STOW" target="_blank">FMC Hub</a></li>
+	<li><a href="https://roboscout.amazon.com/analyze/20563/?&sites=(LBA5)" target="_blank">Technician Hardware Status</a></li>
+ 	<li><a href="https://vantage.amazon.com/app/pod-portal/pod-restrictions?showLoadUnrestrictedPods=false&showQueryAllPodsForEmptiness=false&customer=AMZN&warehouse=LBA5&region=eu-west-1&zones=paKivaA03"_blank">POD Portal</a></li>
+ 	<li><a href="https://keepa.com/#!" target="_blank">Optimus Metrics</a></li>
+ 	<li><a href="https://rodeo-dub.amazon.com/LBA5/ExSD?yAxis=PROCESS_PATH&zAxis=WORK_POOL&shipmentTypes=CUSTOMER_SHIPMENTS&exSDRange.quickRange=DAILY&exSDRange.dailyStart=18%3A30&exSDRange.dailyEnd=05%3A00&giftOption=ALL&fulfillmentServiceClass=ALL&fracs=ALL&isEulerExSDMiss=ALL&isEulerPromiseMiss=ALL&isEulerUpgraded=ALL&isReactiveTransfer=ALL&workPool=PlannedShipment&_workPool=on&workPool=ReadyToPick&workPool=ReadyToPickHardCapped&workPool=ReadyToPickUnconstrained&workPool=PickingNotYetPicked&workPool=PickingNotYetPickedPrioritized&workPool=PickingNotYetPickedNotPrioritized&workPool=PickingNotYetPickedHardCapped&workPool=CrossdockNotYetPicked&_workPool=on&workPool=PickingPicked&workPool=PickingPickedInProgress&workPool=PickingPickedInTransit&workPool=PickingPickedRouting&workPool=PickingPickedAtDestination&workPool=Inducted&workPool=RebinBuffered&workPool=Sorted&workPool=GiftWrap&workPool=Packing&workPool=Scanned&workPool=ProblemSolving&workPool=ProcessPartial&workPool=SoftwareException&workPool=Crossdock&workPool=PreSort&workPool=TransshipSorted&workPool=Palletized&_workPool=on&_workPool=on&processPath=PPAFE1&processPath=PPPickToRebin2&processPath=PPPickToRebin3&processPath=PPPickToRebin4&processPath=PPSingleMedium&processPath=PPSingleMediumX&processPath=PPSingleNoSLAM&processPath=PPSingleNoSLAM2&processPath=&minPickPriority=MIN_PRIORITY&shipMethod=&shipOption=&sortCode=&fnSku=" target="_blank">CPT Rodeo</a></li>
+ 	<li><a href="https://rodeo-dub.amazon.com/LBA5/Dwell?yAxis=PROCESS_PATH&zAxis=WORK_POOL&shipmentTypes=CUSTOMER_SHIPMENTS&DwellTimeGreaterThan=0&DwellTimeLessThan=24&exSDRange.quickRange=ALL&exSDRange.dailyExact=00%3A00&giftOption=ALL&fulfillmentServiceClass=ALL&fracs=NON_FRACS&isEulerExSDMiss=ALL&isEulerPromiseMiss=ALL&isEulerUpgraded=ALL&isReactiveTransfer=ALL&_workPool=on&workPool=ReadyToPick&workPool=ReadyToPickHardCapped&workPool=ReadyToPickUnconstrained&workPool=PickingNotYetPicked&workPool=PickingNotYetPickedPrioritized&workPool=PickingNotYetPickedNotPrioritized&workPool=PickingNotYetPickedHardCapped&workPool=CrossdockNotYetPicked&_workPool=on&workPool=PickingPicked&workPool=PickingPickedInProgress&workPool=PickingPickedInTransit&workPool=PickingPickedRouting&workPool=PickingPickedAtDestination&workPool=Inducted&workPool=RebinBuffered&workPool=Sorted&workPool=GiftWrap&workPool=Packing&workPool=Scanned&workPool=ProblemSolving&workPool=ProcessPartial&workPool=SoftwareException&workPool=Crossdock&workPool=PreSort&workPool=TransshipSorted&workPool=Palletized&_workPool=on&_workPool=on&processPath=&minPickPriority=MIN_PRIORITY&shipMethod=&shipOption=&sortCode=&fnSku=" target="_blank">CPT Dwells</a></li>
+ 	<li><a href="https://fccapacityconfiguration-eu.amazon.com/fc/LBA5/binUtilities/viewBin" target="_blank">FC Capacity Config</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="">Receive Dock</a>
+        <ul class="sub">
+          <li><a href="https://trans-logistics-eu.amazon.com/" target="_blank">Amazon Logistics</a></li>
+	  <li><a href="https://trans-logistics-eu.amazon.com/ssp/dock/hrz/ib" target="_blank">Arriving Loads</a></li>
+	  <li><a href="https://fc-inbound-dock-hub-eu.aka.amazon.com/en_US/#/dockmaster/dayschedule/LBA5" target="_blank">Dockmaster</a></li>
+	  <li><a href="https://trans-logistics-eu.amazon.com/fmc/execution" target="_blank">FMC</a></li>
+	  <li><a href="http://aftfreightlabelprinterapp-eu.aka.amazon.com/small-labels" target="_blank">Freight Shipment</a></li>
+	  <li><a href="https://taskui-gateway-dub.corp.amazon.com/">Pallet Preditor</a></li>
+	  <li><a href="https://taskui-gateway-dub.corp.amazon.com/?listingID=e65362f2-7fed-4017-b883-a8ca100904cf&training=true&hideTasks=1#initialized" target="_blank">Pallet Receive</a></li>
+	  <li><a href="http://aftvisiontunnelpropertiesapp-eu.aka.amazon.com/LBA5/">PID ISA</a></li>
+	  <li><a href="http://aft-carton-preditor-app-dub.dub.proxy.amazon.com/wf" target="_blank">Preditor</a></li>
+          <li><a href="https://aft-carton-preditor-app-dub.dub.proxy.amazon.com/wf?version=identifyDestination" target="_blank">Preditor Identify Destination</a></li>
+	  <li><a href="https://unified-portal-eu.inbound-shipment-signals.scot.a2z.com/#/asnsearch?pageType=search" target="_blank">Unified Portal</a></li>
+	  <li><a href="reject.docx">Trailer Rejection</a></li>
+	  <li><a href="https://fc-transshipment-sort-tool-LBA5.aka.amazon.com/" target="_blank">Transship sort tool</a></li>
+	  <li><a href="https://trans-logistics-eu.amazon.com/yms/shipclerk/#/yard" target="_blank">Yard Managment</a></li>
+ 	<li><a href="http://aftatlisapp-dub.dub.proxy.amazon.com/wf" target="_blank">Atlis</a></li>
+        <li><a href="https://aft-carton-timeline-eu.aka.amazon.com/?warehouseId=LBA5" target="_blank">Carton Timeline</a></li>
+	<li><a href="https://csi.amazon.com/view" target="_blank">CSI View</a></li>
+	<li><a href="http://aft-ibr-build-pallet-web-ui-prod-eu.aka.amazon.com/" target="_blank">Create Pallet</a></li>
+	<li><a href="https://fc-stowapp-dub.amazon.com/decant" target="_blank">Decant</a></li>
+ 	<li><a href="https://dr-sku-dub.amazon.com" target="_blank">Dr. Sku</a></li>
+ 	<li><a href="https://keepa.com/#!" target="_blank">Keepa</a></li>
+ 	<li><a href="https://aftprepcertification-LBA5.aka.amazon.com/tool/scan.htm?warehouse=LBA5" target="_blank">Prep Certification</a></li>
+ 	<li><a href="https://prepmanager-dub.amazon.com/" target="_blank">Prep Manager</a></li>
+ 	<li><a href="https://procurementportal-eu.corp.amazon.com/bp/home" target="_blank">Procurament</a></li>
+        <li><a href="https://prod-dub.inventory-history.aft.amazon.dev/" target="_blank">PO Search</a></li>
+	<li><a href="https://lba5.webui.receive.aka.amazon.com/" target="_blank" target="_blank">Receive</a></li>
+ 	<li><a href="https://lba5.webui.receive.aka.amazon.com/m" target="_blank" target="_blank">Receive Mobile</a></li>
+	<li><a href="https://unreceivewebsite-jlb-dub.dub.proxy.amazon.com/#!/scan-workstation" target="_blank">Unreceive</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="">QAPS</a>
+        <ul class="sub">
+          <li><a href="http://fc-andons-eu.corp.amazon.com/LBA5?category=Kiva&type=Product+Problem&startDate=2023-10-11" target="_blank">Andon</a></li>
+       	  <li><a href="https://vantage.amazon.com/app/home" target="_blank">Vantage</a></li>
+          <li><a href="https://diver.qts.amazon.dev/tools/fcdi/dashboards/fud_misses?end_date=&location_name=LBA5&start_date=" target="_blank">Diver FUD Misses</a></li>
+          <li><a href="https://fc-inbound-tracking.amazon.com/#/LBA5/sortedView" target="_blank">Inbound Tracking Portal</a></li>
+          <li><a href="http://peculiar-inventory-eu.aka.corp.amazon.com/LBA5/overview" target="_blank">Peculiar Inventory</a></li>
+          <li><a href="https://reactive-hunter.eu-aces.amazon.dev/fud" target="_blank">FUD Hunter</a></li>
+          <li><a href="https://routing-tool-dub.aka.amazon.com/tote-route" target="_blank">Routing Tool</a></li>
+          <li><a href="https://afttransshipmenthub-eu.aka.amazon.com/LBA5/view-transfers/inbound/" target="_blank">Transshipment HUB</a></li>
+	  <li><a href="https://roboscout.amazon.com/app/adjacentbins/" target="_blank">Adjacent bins</a></li>
+          <li><a href="https://fba-inbound-defect-console-eu.amazon.com/hdsc_defect_capture_tool" target="_blank">HDSC</a></li>
+          <li><a href="http://aft-qt-eu.aka.amazon.com/app/fcskuflip?experience=Desktop" target="_blank">FCSKU Flip</a></li>
+          <li><a href="https://madcat-dub.corp.amazon.com/" target="_blank">Madcat</a></li>
+          <li><a href="https://liquidationtool.qubit.amazon.dev/new" target="_blank">Liquidation</a></li>
+          <li><a href="https://river-dub.amazon.com/LBA5/home" target="_blank">River</a></li>  
+          <li><a href="http://sortcenter-menu-eu.amazon.com/containerization/" target="_blank">Sort Centre</a></li>
+          <li><a href="https://eu.iar.rbs.amazon.dev/home" target="_blank">Ticket Auto Resolver</a></li>
+          <li><a href="https://w.amazon.com/bin/view/ISSKiosk/EU" target="_blank">Ticket Kiosk</a></li>
+	  <li><a href="https://wave.qubit.amazon.dev/command-center/ISS" target="_blank">Ticket Prioritiser</a></li>
+          <li><a href="https://t.corp.amazon.com/issues/all-my-groups" target="_blank">Trouble Tickets</a></li>
+          <li><a href="https://wave.qubit.amazon.dev/process-path" target="_blank">Wave</a></li>
+	</ul>
+      </li>
+      <li>
+<a href="">ICQA</a>
+        <ul class="sub">
+          <li><a href="https://eu-icqa-star.corp.amazon.com/legacy_app/adjustment_search" target="_blank">Adjustment Search</a></li>
+          <li><a href="https://eu-icqa-audit.corp.amazon.com/" target="_blank">Apollo</a></li>
+          <li><a href="https://diver.qts.amazon.dev/" target="_blank">Diver</a></li>
+          <li><a href="https://fcquality.amazon.com/" target="_blank">FC Quality</a></li>
+          <li><a href="https://smart-icqa.corp.amazon.com/" target="_blank">ICQA Console</a></li>
+          <li><a href="https://w.amazon.com/bin/view/EU-ICQA/" target="_blank">ICQA Europe</a></li>
+          <li><a href="https://fc-quality-dashboard-dub.aka.amazon.com/" target="_blank">Quality Analytics</a></li>
+	  <li><a href="https://eu-icqa-repo.corp.amazon.com/" target="_blank">Repo</a></li>
+          <li><a href="https://eu-icqa-smart-tools.corp.amazon.com" target="_blank">Smart Tools</a></li>
+          <li><a href="https://eu-icqa-star.corp.amazon.com/#" target="_blank">Star</a></li>
+          <li><a href="https://optimus.qts.amazon.dev" target="_blank">Optimus</a></li>
+          <li><a href="http://fc-inbound-transshipment-portal-prod-dub.dub.proxy.amazon.com/SearchTransfer/" target="_blank">Transhipment Portal</a></li>
+          <li><a href="https://diver.qts.amazon.dev/tools/transshipment/dashboards/transfer_details?destination_warehouse_id=LBA5" target="_blank">Transshipment Search</a></li>
+          <li><a href="https://consolidation-portal-dub.dub.proxy.amazon.com/#/LBA5/consolidationRequest" target="_blank">Consolidation</a></li>
+	  <li><a href="https://eu.item-measurement.aft.a2z.com/workOrders?warehouseId=LBA5&workOrderStatuses=WORK_IN_PROGRESS&workOrderStatuses=READY&workOrderTypes=CUBISCAN&workOrderTypes=ATAC&workOrderTypes=PHOTOGRAPH&workOrderTypes=AMAZON_PHOTO1" target="_blank">Cubiscan Report</a></li>        
+	  <li><a href="https://mastermind.dub.amazon.com/" target="_blank">Mastermind</a></li>
+	  <li><a href="https://prod.launch-tools.gess-launch.amazon.dev/fc_onestopshop?fc=LBA5" target="_blank">One Stop Shop</a></li>
+          <li><a href="https://fc-eligibility-website-dub.aka.amazon.com/#/picker-eligibilities/LBA5" target="_blank">Picker Eligibilities</a></li>
+          <li><a href="https://picking-console.eu.picking.aft.a2z.com/fc/LBA5/process-paths" target="_blank">Picking Console</a></li>
+          <li><a href="https://eu-icqa-smart-tools.corp.amazon.com/iss/details/?fc=LBA5" target="_blank">SMART Tool Tickets</a></li>
+          <li><a href="https://t.corp.amazon.com/issues?q=%7B%22AND%22%3A%7B%22status%22%3A%7B%22OR%22%3A%5B%22Researching%22%2C%7B%22OR%22%3A%5B%22Pending%22%2C%7B%22OR%22%3A%5B%22Work%20In%20Progress%22%2C%7B%22OR%22%3A%5B%22Assigned%22%2C%7B%22OR%22%3A%5B%22Resolved%22%2C%22Closed%22%5D%7D%5D%7D%5D%7D%5D%7D%5D%7D%2C%22AND%22%3A%7B%22severity%22%3A%7B%22OR%22%3A%5B%221%22%2C%7B%22OR%22%3A%5B%222%22%2C%7B%22OR%22%3A%5B%222.5%22%2C%7B%22OR%22%3A%5B%223%22%2C%7B%22OR%22%3A%5B%224%22%2C%7B%22OR%22%3A%5B%225%22%2C%22N%22%5D%7D%5D%7D%5D%7D%5D%7D%5D%7D%5D%7D%2C%22assignedGroup%22%3A%22LBA5%20-adjustment-approval%22%7D%7D%7D&id=f387b2ec-71f3-4f35-9517-f2c865ba90c7" target="_blank">TT Defect Logger</a></li>
+          <li><a href="https://tt.amazon.com/issues?q=%7B%22AND%22%3A%7B%22status%22%3A%7B%22OR%22%3A%5B%22Researching%22%2C%7B%22OR%22%3A%5B%22Pending%22%2C%7B%22OR%22%3A%5B%22Resolved%22%2C%7B%22OR%22%3A%5B%22Work%20In%20Progress%22%2C%7B%22OR%22%3A%5B%22Assigned%22%2C%22Closed%22%5D%7D%5D%7D%5D%7D%5D%7D%5D%7D%2C%22AND%22%3A%7B%22severity%22%3A%7B%22OR%22%3A%5B%221%22%2C%7B%22OR%22%3A%5B%222%22%2C%7B%22OR%22%3A%5B%222.5%22%2C%7B%22OR%22%3A%5B%223%22%2C%7B%22OR%22%3A%5B%224%22%2C%7B%22OR%22%3A%5B%225%22%2C%22N%22%5D%7D%5D%7D%5D%7D%5D%7D%5D%7D%5D%7D%2C%22tags%22%3A%22LBA5-HAZMAT%22%7D%7D%7D&id=f387b2ec-71f3-4f35-9517-f2c865ba90c7" target="_blank">TT Hazmat</a></li>
+          <li><a href="https://tt.amazon.com/issues?q=%7B%22AND%22%3A%7B%22status%22%3A%7B%22OR%22%3A%5B%22Researching%22%2C%7B%22OR%22%3A%5B%22Pending%22%2C%7B%22OR%22%3A%5B%22Resolved%22%2C%7B%22OR%22%3A%5B%22Work%20In%20Progress%22%2C%7B%22OR%22%3A%5B%22Assigned%22%2C%22Closed%22%5D%7D%5D%7D%5D%7D%5D%7D%5D%7D%2C%22AND%22%3A%7B%22severity%22%3A%7B%22OR%22%3A%5B%221%22%2C%7B%22OR%22%3A%5B%222%22%2C%7B%22OR%22%3A%5B%222.5%22%2C%7B%22OR%22%3A%5B%223%22%2C%7B%22OR%22%3A%5B%224%22%2C%7B%22OR%22%3A%5B%225%22%2C%22N%22%5D%7D%5D%7D%5D%7D%5D%7D%5D%7D%5D%7D%2C%22tags%22%3A%22LBA5-PR%22%7D%7D%7D&id=f387b2ec-71f3-4f35-9517-f2c865ba90c7" target="_blank">TT Pending Research</a></li>
+          <li><a href="https://tt.amazon.com/issues?q=%7B%22AND%22%3A%7B%22status%22%3A%7B%22OR%22%3A%5B%22Assigned%22%2C%7B%22OR%22%3A%5B%22Researching%22%2C%7B%22OR%22%3A%5B%22Work%20In%20Progress%22%2C%22Pending%22%5D%7D%5D%7D%5D%7D%2C%22AND%22%3A%7B%22severity%22%3A%7B%22OR%22%3A%5B%221%22%2C%7B%22OR%22%3A%5B%222%22%2C%7B%22OR%22%3A%5B%222.5%22%2C%7B%22OR%22%3A%5B%223%22%2C%7B%22OR%22%3A%5B%224%22%2C%7B%22OR%22%3A%5B%225%22%2C%22N%22%5D%7D%5D%7D%5D%7D%5D%7D%5D%7D%5D%7D%2C%22AND%22%3A%7B%22category%22%3A%22iss%22%2C%22AND%22%3A%7B%22country%22%3Anull%2C%22buildingId%22%3A%22LBA5%22%7D%7D%7D%7D%7D&id=6b633a1a-0189-4da6-810f-ad6afad9fe10" target="_blank">TT Oldest</a></li>
+        </ul>
+      </li>
+      <li>
+	<a href="">STOW</a>
+        <ul class="sub">
+	<li><a href="https://vantage.amazon.com/app/fulfillment-dashboards/station-map?startTime=0600&customer=AMZN&warehouse=LBA5&region=eu-west-1&zones=paKivaA02" target="_blank">Stow P2</a></li>
+          <li><a href="https://vantage.amazon.com/app/fulfillment-dashboards/station-map?startTime=0600&customer=AMZN&warehouse=LBA5&region=eu-west-1&zones=paKivaA03" target="_blank">Stow P3</a></li>
+          <li><a href="https://vantage.amazon.com/app/fulfillment-dashboards/station-map?startTime=0600&customer=AMZN&warehouse=LBA5&region=eu-west-1&zones=paKivaA04" target="_blank">Stow P4</a></li>
+	<li><a href="https://stowmap-eu.amazon.com/stowmap/loadFCAreaMap.htm?warehouseId=LBA5" target="_blank">Bin Fullness</a></li>
+	</ul>
+      </li>
+      <li>
+	<a href="">PICK ARSAW</a>
+        <ul class="sub">
+	<li><a href="https://roboscout.amazon.com/analyze/11355/2030/?&sites=(LBA5)&datasource_current_day=false&datasource_startDateTime=2025-09-22%2017:30:00&datasource_endDateTime=2025-09-23%2004:00:00&mom_ids=290%2C26%2C25&osm_ids=4&oxm_ids=147&ofm_ids=761&datasource_viz=nvd3Table" target="_blank">PICK RATE</a></li>
+          <li><a href="https://bianalytics.aka.amazon.com/t/AmazonRobotics/views/StationStaffingTracker/SiteReport?%3Aiid=1&%3AisGuestRedirectFromVizportal=y&%3Aembed=y#1" target="_blank">Station Staffing Tracker</a></li>
+          <li><a href="http://fcmenu-dub-regionalized.corp.amazon.com/basic/login#/LBA5" target="_blank">Pick Eligibility</a></li>
+	<li><a href="https://picking-console.eu.picking.aft.a2z.com/fc/LBA5/pick-workforce" target="_blank">Pick Workforce</a></li>
+ 	<li><a href="https://rodeo-dub.amazon.com/LBA5/ExSD?yAxis=PROCESS_PATH&zAxis=WORK_POOL&shipmentTypes=CUSTOMER_SHIPMENTS&exSDRange.quickRange=DAILY&exSDRange.dailyStart=18%3A30&exSDRange.dailyEnd=05%3A00&giftOption=ALL&fulfillmentServiceClass=ALL&fracs=ALL&isEulerExSDMiss=ALL&isEulerPromiseMiss=ALL&isEulerUpgraded=ALL&isReactiveTransfer=ALL&workPool=PlannedShipment&_workPool=on&workPool=ReadyToPick&workPool=ReadyToPickHardCapped&workPool=ReadyToPickUnconstrained&workPool=PickingNotYetPicked&workPool=PickingNotYetPickedPrioritized&workPool=PickingNotYetPickedNotPrioritized&workPool=PickingNotYetPickedHardCapped&workPool=CrossdockNotYetPicked&_workPool=on&workPool=PickingPicked&workPool=PickingPickedInProgress&workPool=PickingPickedInTransit&workPool=PickingPickedRouting&workPool=PickingPickedAtDestination&workPool=Inducted&workPool=RebinBuffered&workPool=Sorted&workPool=GiftWrap&workPool=Packing&workPool=Scanned&workPool=ProblemSolving&workPool=ProcessPartial&workPool=SoftwareException&workPool=Crossdock&workPool=PreSort&workPool=TransshipSorted&workPool=Palletized&_workPool=on&_workPool=on&processPath=PPAFE1&processPath=PPPickToRebin2&processPath=PPPickToRebin3&processPath=PPPickToRebin4&processPath=PPSingleMedium&processPath=PPSingleMediumX&processPath=PPSingleNoSLAM&processPath=PPSingleNoSLAM2&processPath=&minPickPriority=MIN_PRIORITY&shipMethod=&shipOption=&sortCode=&fnSku=" target="_blank">CPT Rodeo</a></li>
+ 	<li><a href="https://rodeo-dub.amazon.com/LBA5/Dwell?yAxis=PROCESS_PATH&zAxis=WORK_POOL&shipmentTypes=CUSTOMER_SHIPMENTS&DwellTimeGreaterThan=0&DwellTimeLessThan=24&exSDRange.quickRange=ALL&exSDRange.dailyExact=00%3A00&giftOption=ALL&fulfillmentServiceClass=ALL&fracs=NON_FRACS&isEulerExSDMiss=ALL&isEulerPromiseMiss=ALL&isEulerUpgraded=ALL&isReactiveTransfer=ALL&_workPool=on&workPool=ReadyToPick&workPool=ReadyToPickHardCapped&workPool=ReadyToPickUnconstrained&workPool=PickingNotYetPicked&workPool=PickingNotYetPickedPrioritized&workPool=PickingNotYetPickedNotPrioritized&workPool=PickingNotYetPickedHardCapped&workPool=CrossdockNotYetPicked&_workPool=on&workPool=PickingPicked&workPool=PickingPickedInProgress&workPool=PickingPickedInTransit&workPool=PickingPickedRouting&workPool=PickingPickedAtDestination&workPool=Inducted&workPool=RebinBuffered&workPool=Sorted&workPool=GiftWrap&workPool=Packing&workPool=Scanned&workPool=ProblemSolving&workPool=ProcessPartial&workPool=SoftwareException&workPool=Crossdock&workPool=PreSort&workPool=TransshipSorted&workPool=Palletized&_workPool=on&_workPool=on&processPath=&minPickPriority=MIN_PRIORITY&shipMethod=&shipOption=&sortCode=&fnSku=" target="_blank">CPT Dwells</a></li>
+	</ul>
+      </li>
+      <li>
+	<a href="">P2R</a>
+        <ul class="sub">
+	<li><a href="https://autoflow-cascade-eu.amazon.com/LBA5/shiftplan/new" target="_blank">Flow Backlog</a></li>
+          <li><a href="https://flow-sortation-eu.amazon.com/LBA5/#/afe/rainbovv2?partition=PPPickToRebin4" target="_blank">P2R Wall (flow sortatio)</a></li>
+	<li><a href="https://rodeo-dub.amazon.com/LBA5/ExSD?yAxis=PROCESS_PATH&zAxis=WORK_POOL&shipmentTypes=CUSTOMER_SHIPMENTS&exSDRange.quickRange=DAILY&exSDRange.dailyStart=18%3A30&exSDRange.dailyEnd=05%3A00&giftOption=ALL&fulfillmentServiceClass=ALL&fracs=ALL&isEulerExSDMiss=ALL&isEulerPromiseMiss=ALL&isEulerUpgraded=ALL&isReactiveTransfer=ALL&workPool=PlannedShipment&_workPool=on&workPool=ReadyToPick&workPool=ReadyToPickHardCapped&workPool=ReadyToPickUnconstrained&workPool=PickingNotYetPicked&workPool=PickingNotYetPickedPrioritized&workPool=PickingNotYetPickedNotPrioritized&workPool=PickingNotYetPickedHardCapped&workPool=CrossdockNotYetPicked&_workPool=on&workPool=PickingPicked&workPool=PickingPickedInProgress&workPool=PickingPickedInTransit&workPool=PickingPickedRouting&workPool=PickingPickedAtDestination&workPool=Inducted&workPool=RebinBuffered&workPool=Sorted&workPool=GiftWrap&workPool=Packing&workPool=Scanned&workPool=ProblemSolving&workPool=ProcessPartial&workPool=SoftwareException&workPool=Crossdock&workPool=PreSort&workPool=TransshipSorted&workPool=Palletized&_workPool=on&_workPool=on&processPath=PPAFE1&processPath=PPPickToRebin2&processPath=PPPickToRebin3&processPath=PPPickToRebin4&processPath=PPSingleMedium&processPath=PPSingleMediumX&processPath=PPSingleNoSLAM&processPath=PPSingleNoSLAM2&processPath=&minPickPriority=MIN_PRIORITY&shipMethod=&shipOption=&sortCode=&fnSku=" target="_blank">CPT Rodeo</a></li>
+	<li><a href="https://rodeo-dub.amazon.com/LBA5/Dwell?yAxis=PROCESS_PATH&zAxis=WORK_POOL&shipmentTypes=CUSTOMER_SHIPMENTS&DwellTimeGreaterThan=0&DwellTimeLessThan=24&exSDRange.quickRange=ALL&exSDRange.dailyExact=00%3A00&giftOption=ALL&fulfillmentServiceClass=ALL&fracs=NON_FRACS&isEulerExSDMiss=ALL&isEulerPromiseMiss=ALL&isEulerUpgraded=ALL&isReactiveTransfer=ALL&_workPool=on&workPool=ReadyToPick&workPool=ReadyToPickHardCapped&workPool=ReadyToPickUnconstrained&workPool=PickingNotYetPicked&workPool=PickingNotYetPickedPrioritized&workPool=PickingNotYetPickedNotPrioritized&workPool=PickingNotYetPickedHardCapped&workPool=CrossdockNotYetPicked&_workPool=on&workPool=PickingPicked&workPool=PickingPickedInProgress&workPool=PickingPickedInTransit&workPool=PickingPickedRouting&workPool=PickingPickedAtDestination&workPool=Inducted&workPool=RebinBuffered&workPool=Sorted&workPool=GiftWrap&workPool=Packing&workPool=Scanned&workPool=ProblemSolving&workPool=ProcessPartial&workPool=SoftwareException&workPool=Crossdock&workPool=PreSort&workPool=TransshipSorted&workPool=Palletized&_workPool=on&_workPool=on&processPath=&minPickPriority=MIN_PRIORITY&shipMethod=&shipOption=&sortCode=&fnSku=" target="_blank">CPT DEWLLS</a></li>
+          
+	</ul>
+      </li>
+      <li>
+        <a href="">OPS</a>
+        <ul class="sub">
+          <li><a href="https://dub.alps-basecamp.lamps.amazon.dev/LBA5" target="_blank">ALPS</a></li>
+          <li><a href="https://atlas.qubit.amazon.dev/" target="_blank">ATLAS</a></li>
+  	  <li><a href="https://eu.ehs-amazon.com/" target="_blank">AUSTIN</a></li>
+          <li><a href="https://ecft.fulfillment.a2z.com/#/FcRisk/Catan" target="_blank">Catan</a></li>
+          <li><a href="https://fans-dub.amazon.com/" target="_blank">Fans Message</a></li>
+          <li><a href="https://eu.prod.fmc.aft.amazon.dev/LBA5/inbound-flow?selected-tab=VL_NYR" target="_blank">Flow Control</a></li>
+	  <li><a href="https://grafana-prod.prod.eu-west-1.grafana.insights.aft.amazon.dev/d/qCytwCoGz/myspd-lane-status?orgId=1&refresh=30s&var-Building=LBA5&var-Sorter=InboundSorter&var-Sub_Sorter=receivesorter1&var-Lane=All&from=now-1h&to=now" target="_blank">Grafana</a></li>
+          <li><a href="https://dub.inbound.rodeo.aft.a2z.com/LBA5/post?xAxis=ExpectedStowDateDimension&yAxis=WorkPoolDimension&bucketSize=60_MIN&expectedStowDateRangeOption=PLUS_MINUS_ONE_DAY&shipmentType=ALL&containerId=&containerSizes=&containerTypes=&fcSku=&fnSku=&isaId=&isdId=&isReactive=&outerContainerId=&outerContainerTypes=&outerScannableId=&floor=&mod=&processPaths=&scannableId=&sourceWarehouseIds=&status=Actuals&workPools=TransReceived%2CUnloaded%2CVendorReceived%2CUnloadedToConveyance%2CDecanted%2CPendingStow%2CStowed" target="_blank">IB Rodeo</a></li>
+          <li><a href="https://fclm-portal.amazon.com/reports/processPathRollup?&warehouseId=LBA5" target="_blank">PPR</a></li>
+          <li><a href="https://quip-amazon.com/1sWkATCaXD5m/Vision-Client-Launcher" target="_blank">SCADA</a></li>
+          <li><a href="https://sspot.dub.corp.amazon.com/LBA5/cohorts">Shift Codes</a></li>
+          <li><a href="https://skynet.amazon.dev/" target="_blank">Skynet</a></li>
+          <li><a href="https://flow-sortation-eu.amazon.com/LBA5/" target="_blank">Sortation Dashboard</a></li>
+          <li><a href="https://tot.aft.amazon.dev/" target="_blank">Time on Task</a></li>
+	  <li><a href="https://tunnel-insights-eu.aka.amazon.com/en_US">Tunnel Insight</a></li>
+          <li><a href="https://dub.umbrella.amazon.dev">Umbrella</a></li>
+        </ul>
+      </li>
+<li>
+        <a href="">Tools & Metrics</a>
+        <ul class="sub">
+          <li><a href="https://bmi.amazon.com/" target="_blank">BMI</a></li>
+          <li><a href="https://vantage.amazon.com/app/rmekpi-dashboards/site-overview?customer=AMZN&warehouse=LBA5&region=eu-west-1&zones=paKivaA02%2CpaKivaA03%2CpaKivaA04&vntgDateRange=LAST-HOUR" target="_blank">Drive Utilisation</a></li>
+          <li><a href="https://fc-benchmarking.amazon.com/fc/LBA5/fast-starts" target="_blank">Fast Start</a></li>
+	  <li><a href="https://dub.prod.inbound.sera.aft.a2z.com/LBA5" target="_blank">SERA</a></li>
+	  <li><a href="https://stowmap-eu.amazon.com/stowmap/loadFCAreaMap.htm?warehouseId=LBA5" target="_blank">Stow Heat Map</a></li>
+          <li><a href="https://dpsportal-eu.amazon.com/palletstowrecommendation/emptyBins.htm?warehouseId=LBA5" target="_blank">Stow Empty Location</a></li>
+          <li><a href="https://roboscout.amazon.com/dashboards/10390/?sites=(LBA5)" target="_blank">Stow Headcounts</a></li>
+          <li><a href="https://roboscout.amazon.com/analyze/19851/2210/?current_day=true&datasource_current_day=true&datasource_viz=nvd3Table&endDateTime=today&extend_datetime_to_shift_start=true&mom_ids=428%2C687%2C394%2C321%2C323%2C632%2C379%2C426%2C430&ofm_ids=&osm_ids=&oxm_ids=444%2C441%2C442&sites=(LBA5)&startDateTime=today" target="_blank">Stow Performance</a></li>
+          <li><a href="https://roboscout.amazon.com/analyze/20990/?&sites=(LBA5)&datasource_current_day=false&datasource_startDateTime=2024-01-03%2007:30:00&datasource_endDateTime=2024-01-03%2018:00:00&mom_ids=1443&osm_ids=978%2C979&oxm_ids=1152&ofm_ids=602&datasource_viz=nvd3BarChart" target="_blank">Stow POD Gaps</a></li>
+          <li><a href="https://roboscout.amazon.com/analyze/19851/2426/?sites=(LBA5)" target="_blank">Stow Takt Time</a></li>
+          <li><a href="https://quip-amazon.com/vITRApj8jnwG/ISS-FEDBED-BACKLOG-SHEET#temp:C:VfIf8f50904ebda49279994b6d2e" target="_blank">Backlog Quip</a></li>
+          <li><a href="https://quip-amazon.com/a5d0ANAx1BK5/FED-IB-Flow#temp:C:YOLe43f77fc05af417482372160c" target="_blank">FED Flow Quip</a></li>
+	<li><a href="RME RESET CARD.pdf" target="_blank">RESET CARD</a></li>
+          <li><a href="IfReceived.xlsb" target="_blank">Transhipment Checker</a></li>
+          <li><a href="Code of Conduct.xlsx" target="_blank">Code of Conduct</a></li>
+          <li><a href="SMARTPPRDAYS.xlsm" target="_blank">SMART PPR DAYS</a></li>
+          <li><a href="https://eu-west-1.quicksight.aws.amazon.com/sn/account/amazonbi/dashboards/74c5c4a9-68c7-4251-ae4e-ebe67e42d249?#" target="_blank">QS Pod banding</a></li>
+          <li><a href="https://us-east-1.quicksight.aws.amazon.com/sn/account/amazonbi/dashboards/026c4926-5e13-4518-bf3f-dda18ae5244b?#" target="_blank">QS SRC Generation</a></li>
+          <li><a href="https://moc.prod.atlas-opensearch.qubit.amazon.dev/" target="_blank">Open Search</a></li>
+        </ul>
+      </li>
 
+    </ul>
+  </nav>
+<div class="news-feed">
+  <div class="news-feed">
+    <h1>
+      LBA5 QB LINKS
+      <div class="search-section">
+        <input type="text" id="search-input" placeholder="Search here...">
+        <ul id="search-results" class="search-results"></ul>
+      </div>
+    </h1>
+  </div>
+  <div class="news-grid">
+    <div class="news-item">
+      <img src="image1.webp.jpeg" alt="Image 1" id="openModalImage1" style="cursor:pointer;">
+      <h2><a href="https://linktr.ee/lba5" target="_blank">Welcome 2 LBA5</a></h2>
+      <p>Aire Valley Road, Leeds, LS9 0DZ, England, UK.</p>
+    </div>
+    <div class="news-item">
+      <img src="image2.webp.jpeg" alt="Image 2" id="openModalImage2" style="cursor:pointer;">
+      <h2><a href="#"target="_blank">Learning & Development</a></h2>
+      <p>Learn, be curious and develop..</p>
+    </div>
+    <div class="news-item">
+      <img src="image3.webp.jpeg" alt="Image 3" id="openModalImage3" style="cursor:pointer;">
+      <h2><a href="#" target="_blank">Success Story</a></h2>
+      <p>Tools for success!</p>
+    </div>
+    <div class="news-item">
+      <img src="image4.webp.jpeg" alt="Image 4" id="openModalImage4" style="cursor:pointer;">
+      <h2><a href="vmLBA5.html" target="_blank">Scripts</a></h2>
+      <p>Violent/Tamper Monkey scripts.</p>
+    </div>
+    <div class="news-item">
+      <img src="image5.webp.jpeg" alt="Image 5" id="openModalImage5" style="cursor:pointer;">
+      <h2><a href="lynxLBA5.html" target="_blank">WIKI</a></h2>
+      <p>Wiki helps you to find everything.</p>
+    </div>
+    <div class="news-item">
+      <img src="image6.webp.jpeg" alt="Image 6" id="openModalImage6" style="cursor:pointer;">
+      <h2><a href="#" target="_blank">RSP</a></h2>
+      <p>Robotic Storage Platforms.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Modals -->
+<div id="myModal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal(1)">&times;</span>
+        <a href="https://linktr.ee/lba5" target="_blank">LBA5 News</a><br>
+        <a href="https://hub.amazon.work/" target="_blank">AtoZ</a><br>
+        <a href="https://fcmap.topology.a2z.com/" target="_blank">FC Map</a><br>
+        <a href="https://e-swag.corp.amazon.com/" target="_blank">SWAG Store</a><br>
+
+    </div>
+</div>
+<div id="myModal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal(2)">&times;</span>
+	<a href="https://atoz.amazon.work/learn/trainings/CRSLERN20240621193418b56ca784?lms=LEARN" target="_blank">Shot Call Training</a><br>
+	<a href="https://atoz.amazon.work/learn/trainings/CRSLERN202412091603076bcdc26e?lms=LEARN" target="_blank">QB Learn By Doing</a><br>
+        <a href="https://atoz.amazon.work/learn/trainings/CRSLERN202501161919570565e5a8?lms=LEARN&trainingPath=%5B%22CRSLERN202501161919570565e5a8%22%5D" target="_blank">Floor Blitz Learning</a><br>
+        <a href="https://w.amazon.com/bin/view/EU_OpsL%26D_Critical_Role_Training/Training_Standards/Table_01" target="_blank">CALM Codes</a><br>
+        <a href="https://atoz.amazon.work/learn/rustici/launch?trainingPath=%5B%22TCRKN1T2018062519243156a2d2e7%22%5D&rootTranscriptId=5679b9d3-09e9-50c0-a57d-aab6a6372eb0&currentTranscriptId=5679b9d3-09e9-50c0-a57d-aab6a6372eb0&respectUserSelection=true" target="_blank">Pod Tansfer Mass Removal</a><br>
+        <a href="https://atoz.amazon.work/learn/rustici/launch?trainingPath=%5B%22TCRKN1T201806251922472d859b9f%22%5D&rootTranscriptId=aae5ded8-c721-5ae7-9e26-83976f77ab53&currentTranscriptId=aae5ded8-c721-5ae7-9e26-83976f77ab53&respectUserSelection=true" target="_blank">POD TRANSFER Induction</a><br>
+        <a href="https://atoz.amazon.work/learn/rustici/launch?trainingPath=%5B%22TCRKN1T2018062519244324ccf296%22%5D&rootTranscriptId=a61a77fb-a58d-542e-aaa3-de4dc2e945e1&currentTranscriptId=a61a77fb-a58d-542e-aaa3-de4dc2e945e1&respectUserSelection=true" target="_blank">POD TRANSFER QC</a><br>        
+	<a href="https://w.amazon.com/bin/view/CISS/" target="_blank">CISS</a><br>
+        <a href="https://start.wwops.amazon.dev/" target="_blank">START</a><br>
+        <a href="https://www.sli.translator.amazon.dev/" target="_blank">Translator</a><br>
+        <a href="https://dub.umbrella.amazon.dev" target="_blank">Umbrella</a><br>
+        <a href="https://policy.a2z.com" target="_blank">Policy 2.0</a><br>
+        <a href="http://w.amazon.com" target="_blank">Wiki</a><br>
+    </div>
+</div>
+<div id="myModal3" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal(3)">&times;</span>
+	<a href="https://acid.amazon.com/feeds/86194/slideshow" target="_blank">Amazon Apprentice</a><br>
+        <a href="https://amazonapprenticeships.co.uk" target="_blank">Amazon Apprentice</a><br>
+        <a href="https://www.benefithub.com/" target="_blank">Amazon Benefit Portal</a><br>
+        <a href="https://www.amazoncareerchoice.com/" target="_blank">Amazon Career Choice</a><br>
+        <a href="https://hvr-amazon.my.site.com/" target="_blank">Amazon Force</a><br>
+        <a href="https://www.amazon.jobs/" target="_blank">Amazon Jobs</a><br>
+    </div>
+</div>
+<div id="myModal4" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal(4)">&times;</span>
+	<a href="tampermonkey All in One.zip" target="_blank">Tamper monkey</a><br>
+        <a href="vmLBA5.html" target="_blank">Scripts</a><br>
+        <a href="https://chatops.aces.amazon.dev/" target="_blank">Chat Ops</a><br>
+    </div>
+</div>
+<div id="myModal5" class="modal">
+    <div class="modal-content">
+	<a href="http://w.amazon.com" target="_blank">Wiki</a><br>
+	<a href="https://w.amazon.com/bin/view/CentralFloorHealth/QB#Attachments" target="_blank">QB Role & Duties</a><br>
+	<a href="QB SWCL v2.pdf" target="_blank">QB Daily Checklist</a><br>
+        <a href="https://spyglass.corp.amazon.com/" target="_blank">Spyglass</a><br>
+        <a href="https://prod.launch-tools.gess-launch.amazon.dev/fc_onestopshop?fc=LBA5">One Stop Shop</a><br>
+        
+        <span class="close" onclick="closeModal(5)">&times;</span>
+    </div>
+</div>
+<div id="myModal6" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal(6)">&times;</span>
+        <a href="https://acid.amazon.com/feeds/86207/slideshow" target="_blank">RSP News</a><br>
+	<a href="https://eu.formulate.gsf.a2z.com/forms/502d491b-6ed2-4c6f-945c-e28727239b72" target="_blank">NEW Escort Form</a><br>
+	<a href="https://share.amazon.com/sites/ARU-LID/SitePages/form.html" target="_blank">OLD Escort Form</a><br>
+        <a href="https://quip-amazon.com/1yUdAqaaiUMh/AFM-ROTA-DAYS" target="_blank">ROTA DAYS</a><br>
+	<a href="https://quip-amazon.com/InbGAz0f5Mys/AFM-ROTA-NIGHTS" target="_blank">ROTA NIGHTS</a><br>
+	<a href="DU pre shift planner for LBA5 2025 -Version2.0.xlsm" target="_blank">DU PSP</a><br>
+	<a href="https://qrco.de/bfFto" target="_blank">AFM Allocation</a><br>
+        <a href="https://qrco.de/bfFto0" target="_blank">ISS Allocation</a><br>
+        <a href="https://qrco.de/bfF36Y" target="_blank">Receive Allocation</a><br>
+        <a href="https://qrco.de/bfEnot" target="_blank">Stow Allocation</a><br>
+	<a href="https://qrco.de/bfEno" target="_blank">PICK ARSAW Allocation</a><br>
+	<a href="https://qrco.de/bfEno" target="_blank">P2R Allocation</a><br>
+        <a href="https://quip-amazon.com/vITRApj8jnwG/DAYS#temp:C:VfI81f48aa21d4a49278077da80f" target="_blank">Backlog Quip</a><br>
+        <li><a href="RME RESET CARD.pdf" target="_blank">RESET CARD</a></li>
+    </div>
+</div>
+
+
+<div id="myModal7" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal(7)">&times;</span>
+            	<a href="https://fclm-portal.amazon.com/reports/processPathRollup?warehouseId=LBA5" target="_blank"><b>CODE AFMs</b></a><br>
+		<a href="https://fcmenu-dub-regionalized.corp.amazon.com/LBA5/calmCode" target="_blank">Put myself on task</a><br>
+                <a href="https://fcmenu-dub-regionalized.corp.amazon.com/LBA5/laborTrackingKiosk" target="_blank">Put someone on task</a><br>
+	</div>
+        </div>
+
+<div id="myModal8" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal(8)">&times;</span>
+            	<a href="https://emea.roboscout.rom.robotics.a2z.com/d/home/home?orgId=1&var-customer=AMZN&var-warehouse=LBA5" target="_blank"><b>RoboScout</b></a><br>
+		<a href="https://emea.roboscout.rom.robotics.a2z.com/d/rwm-fido-fault-trips/fido-fault-and-trips-dashboard?from=now-1w&orgId=1&to=now&var-warehouse=DUS4&var-warehouse=FRA7&var-warehouse=HAM2&var-warehouse=KTW3&var-warehouse=PAD1&var-warehouse=SZZ1&var-zone=All&var-workcell_id=All&var-interval=1h&var-detail=Warehouse" target="_blank">FIDO Faults</a><br>
+                <a href="https://vantage.amazon.com/app/pod-portal/pod-details?region=us-east-1&customer=AMZN" target="_blank">POD Portal</a><br>
+		<a href="https://roboscout.amazon.com/app/adjacentbins/" target="_blank"><b>Adjacent Bins</b></a><br>
+		<a href="https://fccapacityconfiguration-eu.amazon.com/fc/LBA5" target="_blank">FC Capacity Config</a><br>
+                <a href="https://history-manager-dub.dub.proxy.amazon.com/home" target="_blank">History Manager</a><br>
+                <a href="https://ledger-eu.qubit.a2z.com/load-balancer-latest-metrics?country=GB&fcFilters=LBA5&columnsToHide=InboundVTOHoursForPastThirtyDays,OutboundVTOHoursForPastThirtyDays,InboundVTOPercentageForPastThirtyDays,OutboundVTOPercentageForPastThirtyDays,OmegaPaused,OmegaUnpaused,OmegaCurrent,OmegaLastUpdatedUtc,InboundVTOPercentage,OutboundVTOPercentage,F2PCurrentAssignmentsPercentage,F2PForecastedTargetsPercentage,F2PTargetCost,F2POffsetCost,F2PCurrency,F2PLastUpdatedUtc,FC%20Type,DailyShipmentsSoFarNew,CurrentWorkableNew&snapshotDate=Today&snapshotTime=Now" target="_blank">FC Metrics Ledger</a><br>
+                <a href="https://monitorportal.amazon.com/igraph?SchemaName1=Search&Pattern1=schemaname%3D%24Service%24%20dataset%3D%24Prod%24%20hostgroup%3D%24ALL%24%20host%3D%24ALL%24%20servicename%3D%24KivaChargingPlannerService%24%20methodname%3D%24ALL%24%20client%3D%24ALL%24%20metricclass%3D%24NONE%24%20instance%3D%24NONE%24%20metric%3D%24chapln.status.averageChargeLevel%24%20DSA6&Period1=FiveMinute&Stat1=avg&LiveData1=true&HeightInPixels=480&WidthInPixels=600&GraphTitle=Charge%20Level&Palette=cloudwatch&TZ=Europe%2FLondon@TZ%3A%20London&HorizontalLineLeft1=If%20Below%20Line%20Escalate-%20@%200.6&LabelLeft=Percent&StartTime1=8%20hours%20ago&EndTime1=now" target="_blank">Drive Charge Level</a><br>
+                <a href="https://drive-render.corp.amazon.com/view/muhamuas@/LBA5%20QB/BarcodeGenerator.html" target="_blank">Barcode Generator</a><br>
+	</div>
+        </div>
+  <!-- Names and Links Database -->
+
+  <div class="name-link-database" style="display:none;">
+  <ul id="name-link-database">
+<li data-name="Inventory Genealogy" data-link="https://prod-dub.inventory-history.aft.amazon.dev/"></li>
+<li data-name="Carton Timeline" data-link="https://aft-carton-timeline-eu.aka.amazon.com/"></li>
+<li data-name="Spyglass" data-link="https://spyglass.corp.amazon.com/"></li>
+<li data-name="Open Search" data-link="https://moc.prod.atlas-opensearch.qubit.amazon.dev/"></li>
+<li data-name="Shift Code" data-link="https://sspot.dub.corp.amazon.com/"></li>
+<li data-name="Code" data-link="https://code.amazon.com/"></li>
+<li data-name="Policy 2.0" data-link="https://policy.a2z.com/"></li>
+<li data-name="Chat Ops" data-link="https://chatops.aces.amazon.dev/"></li>
+<li data-name="Cedric" data-link="https://console.harmony.a2z.com/internal-ai-assistant"></li>
+<li data-name="Quicksight" data-link="https://eu-west-1.quicksight.aws.amazon.com"></li>
+<li data-name="Kibana" data-link="https://atlas-kibana.corp.amazon.com/"></li>
+<li data-name="Stow Andons" data-link="http://fc-andons-eu.corp.amazon.com/"></li>
+<li data-name="IDRT" data-link="http://fc-spaceman-idrt-dub.aka.amazon.com/"></li>
+<li data-name="Madcat" data-link="https://madcat-dub.corp.amazon.com/"></li>
+<li data-name="Receive Mobile" data-link="http://fcreceiveui-lba5.aka.amazon.com/m"></li>
+<li data-name="Sourceability Portal" data-link="https://eu.prod.src.scot.amazon.dev/"></li>
+<li data-name="Prep Certification" data-link="https://aftprepcertification-eu.amazon.com/"></li>
+<li data-name="Prep Manager" data-link="https://prepmanager-dub.amazon.com/"></li>
+<li data-name="Inventory adjustment" data-link="https://aft-poirot-website-onebox-dub.dub.proxy.amazon.com/"></li>
+<li data-name="Procurement" data-link="https://procurementportal-eu.corp.amazon.com/"></li>
+<li data-name="Pandash" data-link="https://pandash.amazon.com/"></li>
+<li data-name="FNSKU Mapping" data-link="https://fba-fnsku-commingling-console-eu.aka.amazon.com/"></li>
+<li data-name="Dr. Sku" data-link="https://dr-sku-dub.amazon.com/"></li>
+<li data-name="AtLis" data-link="http://aftatlisapp-dub.dub.proxy.amazon.com/wf"></li>
+<li data-name="AFT Freight Shipment Printer" data-link="http://aftfreightlabelprinterapp-eu.aka.amazon.com/"></li>
+<li data-name="FC Menu Basic" data-link="https://fcmenu-dub-regionalized.corp.amazon.com/openid/login"></li>
+<li data-name="Labor Tracking Kiosk" data-link="https://fcmenu-dub-regionalized.corp.amazon.com/LBA5/laborTrackingKiosk"></li>
+<li data-name="Mastermind" data-link="https://mastermind.dub.amazon.com/"></li>
+<li data-name="AFT Freight Shipment Printer" data-link="http://aftfreightlabelprinterapp-eu.aka.amazon.com/"></li>
+<li data-name="Inbound Tracking Portal" data-link="https://fc-inbound-tracking.amazon.com/"></li>
+<li data-name="Roboscout Stow Performance" data-link="https://roboscout.amazon.com/dashboards/10390/?sites=(LBA5)"></li>
+<li data-name="Printmon" data-link="http://localhost:5965/barcodegenerator#"></li>
+<li data-name="Dock Master" data-link="https://fc-inbound-dock-hub-eu.aka.amazon.com/"></li>
+<li data-name="Unified Portal" data-link="https://unified-portal-eu.inbound-shipment-signals.scot.a2z.com/"></li>
+<li data-name="Get Shipment" data-link="https://fish-console-eu.aka.amazon.com/getShipment"></li>
+<li data-name="AFT Transhipment Hub" data-link="https://afttransshipmenthub-eu.aka.amazon.com/LBA5/view-transfers/inbound/"></li>
+<li data-name="Build Pallet" data-link="http://aft-ibr-build-pallet-web-ui-prod-eu.aka.amazon.com/"></li>
+<li data-name="Carton Preditor" data-link="http://aft-carton-preditor-app-dub.dub.proxy.amazon.com/wf"></li>
+<li data-name="YMS Yard Managment" data-link="https://trans-logistics-eu.amazon.com/yms/shipclerk/#/yard"></li>
+<li data-name="Arriving Loads" data-link="https://trans-logistics-eu.amazon.com/ssp/dock/hrz/ib"></li>
+<li data-name="FMC Freight Managment Console" data-link="https://trans-logistics-eu.amazon.com/fmc/execution"></li>
+<li data-name="Amazon Logistics" data-link="https://trans-logistics-eu.amazon.com/"></li>
+<li data-name="IOL Peculiar Inventory" data-link="http://peculiar-inventory-eu.aka.corp.amazon.com/"></li>
+<li data-name="ICQA Star" data-link="https://eu-icqa-star.corp.amazon.com/"></li>
+<li data-name="ICQA Transshipment portal" data-link="https://eu-icqa-transshipment.corp.amazon.com/"></li>
+<li data-name="Denali" data-link="https://prod.eu.denali.scot.amazon.dev/"></li>
+<li data-name="Catan" data-link="https://ecft.fulfillment.a2z.com/#/FcRisk/Catan/"></li>
+<li data-name="Tiny Link Shortener" data-link="https://tiny.amazon.com/"></li>
+<li data-name="FOS Portal" data-link="https://fos-portal-eu.amazon.com/"></li>
+<li data-name="BMI Benchmark Portal" data-link="https://bmi.amazon.com/"></li>
+<li data-name="SLIM" data-link="https://slim.corp.amazon.com/dashboard"></li>
+<li data-name="DACHS" data-link="https://dachs.corp.amazon.com/"></li>
+<li data-name="RTIP" data-link="https://rtip.amazon.com/"></li>
+<li data-name="Tiny Link Shortener" data-link="https://tiny.amazon.com/"></li>
+<li data-name="FC Quality" data-link="https://fcquality.amazon.com/"></li>
+<li data-name="Translator" data-link="https://www.sli.translator.amazon.dev/"></li>
+<li data-name="Wave" data-link="https://wave.qubit.amazon.dev/process-path"></li>
+<li data-name="Skynet" data-link="https://skynet.amazon.dev/"></li>
+<li data-name="Carton Timeline" data-link="https://aft-carton-timeline-eu.aka.amazon.com/?warehouseId=LBA5"></li>
+<li data-name="Diver" data-link="https://diver.qts.amazon.dev/"></li>
+<li data-name="POD Transfer" data-link="https://transfers-portal-eu.aka.amazon.com/"></li>
+<li data-name="ISS Auto Resolver" data-link="https://eu.iar.rbs.amazon.dev/home"></li>
+<li data-name="ISS Kiosk" data-link="https://w.amazon.com/bin/view/ISSKiosk/UK"></li>
+<li data-name="Simple Issues Manager" data-link="https://sim.amazon.com/"></li>
+<li data-name="SIM tickets" data-link="https://t.corp.amazon.com/issues/all-my-groups"></li>
+<li data-name="Liqudation Tool" data-link="https://liquidationtool.qubit.amazon.dev/"></li>
+<li data-name="HDSC" data-link="https://fba-inbound-defect-console-eu.amazon.com/hdsc_defect_capture_tool"></li>
+<li data-name="CUBI Scan Report" data-link="https://eu.item-measurement.aft.a2z.com/workOrders?warehouseId=LBA5&workOrderStatuses=WORK_IN_PROGRESS&workOrderStatuses=READY&workOrderTypes=CUBISCAN&workOrderTypes=ATAC&workOrderTypes=PHOTOGRAPH&workOrderTypes=AMAZON_PHOTO1"></li>
+<li data-name="Picking Console" data-link="https://picking-console.eu.picking.aft.a2z.com/fc/LBA5/process-paths"></li>
+<li data-name="River" data-link="https://river-dub.amazon.com/"></li>
+<li data-name="Removal Execution Viewer" data-link="https://rev-dub.aka.amazon.com/"></li>
+<li data-name="Gravis" data-link="https://eu-cretfc-tools-dub.dub.proxy.amazon.com/gravis/"></li>
+<li data-name="CSI Data viewer" data-link="https://csi.amazon.com/view"></li>
+<li data-name="Atlas" data-link="https://atlas.qubit.amazon.dev/"></li>
+<li data-name="Ticket Prioritiser" data-link="https://wave.qubit.amazon.dev/command-center/ISS"></li>
+<li data-name="ICQA Smart Tools" data-link="https://eu-icqa-smart-tools.corp.amazon.com"></li>
+<li data-name="Adjacent Bins" data-link="https://roboscout.amazon.com/app/adjacentbins/"></li>
+<li data-name="IO Print" data-link="http://aft-qt-eu.aka.amazon.com/app/ioprint?experience=Desktop"></li>
+<li data-name="Move Items" data-link="http://aft-qt-eu.aka.amazon.com/app/moveitems?experience=Desktop"></li>
+<li data-name="Add Items" data-link="http://aft-problem-solve-website-dub.dub.proxy.amazon.com/found_item"></li>
+<li data-name="Delete Items" data-link="http://aft-qt-eu.aka.amazon.com/app/deleteitems?experience=Desktop"></li>
+<li data-name="Edit Items" data-link="http://aft-qt-eu.aka.amazon.com/app/edititems?experience=Desktop"></li>
+<li data-name="Unreceive Tool" data-link="https://unreceivewebsite-jlb-dub.dub.proxy.amazon.com/#!/scan-workstation"></li>
+<li data-name="Transhipment QA tool" data-link="http://qa-tool-dub.dub.proxy.amazon.com/transshipQATool"></li>
+<li data-name="Unbind" data-link="http://tx-b-hierarchy-dub.dub.proxy.amazon.com/unbindHierarchy"></li>
+<li data-name="TSO Trouble Shooting" data-link="https://trans-logistics-eu.amazon.com/sortcenter/tantei"></li>
+<li data-name="Rodeo" data-link="https://rodeo-dub.amazon.com/LBA5"></li>
+<li data-name="Sort Centre" data-link="http://sortcenter-menu-eu.amazon.com/containerization"></li>
+<li data-name="Amazon WIKI" data-link="https://w.amazon.com/bin/view/Main/"></li>
+<li data-name="Start" data-link="https://start.wwops.amazon.dev/"></li>
+<li data-name="Launch Portal" data-link="https://prod.launch-tools.gess-launch.amazon.dev/"></li>
+<li data-name="Inbound Flow Control" data-link="https://eu.prod.fmc.aft.amazon.dev/"></li>
+<li data-name="SERA" data-link="https://dub.prod.inbound.sera.aft.a2z.com/"></li>
+<li data-name="Inbound Rodeo" data-link="https://dub.inbound.rodeo.aft.a2z.com/"></li>
+<li data-name="BOX Web" data-link="https://box-web-dub.amazon.com/"></li>
+<li data-name="FCLM" data-link="https://fclm-portal.amazon.com/"></li>
+<li data-name="PPR" data-link="https://fclm-portal.amazon.com/reports/processPathRollup?warehouseId=LBA5"></li>
+<li data-name="Austin" data-link="https://eu.ehs-amazon.com/"></li>
+<li data-name="FANS" data-link="https://fans-dub.amazon.com/"></li>
+<li data-name="FC's Map Topology" data-link="https://fcmap.topology.a2z.com/"></li>
+<li data-name="Permission Groups" data-link="https://permissions.amazon.com/user.mhtml"></li>
+<li data-name="Email Groups" data-link="https://email-list.amazon.com/email-list/"></li>
+<li data-name="Sortation Dashboard" data-link="https://flow-sortation-eu.amazon.com/"></li>
+<li data-name="CALM Codes WIKI" data-link="https://w.amazon.com/index.php/ANTS/PPA/PPRToPPAProcesses#PPR_Indirect_CALM_Codes_to_PPA_Process.2FAttributes"></li>
+<li data-name="Stow Map" data-link="https://stowmap-eu.amazon.com/"></li>
+<li data-name="ICQA REPO" data-link="https://eu-icqa-repo.corp.amazon.com/"></li>
+<li data-name="Phonetool" data-link="https://phonetool.amazon.com/"></li>
+<li data-name="Amazon AtoZ HUB" data-link="https://hub.amazon.work/"></li>
+<li data-name="E-SWAG" data-link="https://e-swag.corp.amazon.com/"></li>
+<li data-name="My Drive" data-link="https://drive.corp.amazon.com/"></li>
+<li data-name="WorkDocs" data-link="https://amazon.awsapps.com/workdocs"></li>
+<li data-name="Indirect CALM Codes WIKI" data-link="https://w.amazon.com/bin/view/EU_OpsL%26D_Critical_Role_Training/"></li>
+<li data-name="Picker Eligibility" data-link="https://fc-eligibility-website-dub.aka.amazon.com/#/picker-eligibilities/LBA5"></li>
+<li data-name="ISS Quip Backlog" data-link="https://quip-amazon.com/account/login?next=https%3A%2F%2Fquip-amazon.com%2Fall&permalink=navigation%3A25"></li>
+<li data-name="Consolidation Request" data-link="https://consolidation-portal-dub.dub.proxy.amazon.com/"></li>
+<li data-name="Password tool" data-link="https://password-v2.corp.amazon.com/"></li>
+<li data-name="ALPS" data-link="https://dub.alps-basecamp.lamps.amazon.dev/"></li>
+<li data-name="Huddle" data-link="https://central.prod-eu.wellnesskiosk.whs.amazon.dev/"></li>
+<li data-name="Fast Start" data-link="https://fc-benchmarking.amazon.com/fc/LBA5/fast-starts"></li>
+<li data-name="Archer" data-link="https://archer-eu.corp.amazon.com/"></li>
+<li data-name="POD Gap" data-link="https://roboscout.amazon.com/analyze/20990/?&sites=(LBA5)&datasource_current_day=false&datasource_viz=nvd3BarChart&datasource_startDateTime=2023-03-03%2019:00:00&datasource_endDateTime=2023-03-04%2005:30:00&mom_ids=1443&osm_ids=978%2C979&oxm_ids=1152&ofm_ids=602"></li>
+<li data-name="AR Metrics" data-link="https://roboscout.amazon.com/analyze/19851/1927/?&sites=(LBA5)&datasource_current_day=false&datasource_startDateTime=2023-10-04%2006:45:00&datasource_endDateTime=2023-10-04%2017:15:00&mom_ids=394%2C321%2C362%2C632%2C379%2C426&osm_ids=30%2C31&oxm_ids=443&ofm_ids=&datasource_viz=nvd3Table"></li>
+<li data-name="Station Staffing" data-link="https://roboscout.amazon.com/dashboards/10390/?&state=/dashboards/10390/%3Fsites%3D(NCL2-paKivaA02)(NCL2-paKivaA03)(NCL2-paKivaA04)&sites=(LBA5)"></li>
+<li data-name="ARRM Portal" data-link="https://arrm-portal-eu-dub.dub.proxy.amazon.com/"></li>
+<li data-name="Time On Task" data-link="https://tot.aft.amazon.dev/"></li>
+<li data-name="Selection central" data-link="https://selection.amazon.com/search"></li>
+<li data-name="Serenity" data-link="https://serenity.corp.amazon.com/Reports/browse/"></li>
+<li data-name="Sandop" data-link="https://portal.sandop.a2z.com/"></li>
+<li data-name="Adapt" data-link="https://adapt-dub.amazon.com/"></li>
+<li data-name="Safety Circle" data-link="https://fcmenu-dub-regionalized.corp.amazon.com/LBA5?message%5B0%5D.type=warn&message%5B0%5D.text=Invalid+Menu+Entry"></li>
+<li data-name="Associate Engagement" data-link="https://eu.engage.amazon.dev/engagements"></li>
+<li data-name="Quriosity" data-link="https://amazon-play.learningcloud.me/student/home"></li>
+<li data-name="Continuous Improvement Ideas" data-link="https://ci.eu-aces.amazon.dev/"></li>
+<li data-name="Heat Index" data-link="https://heat-index-monitor.corp.amazon.com/"></li>
+<li data-name="Gensuite" data-link="https://amazon.gensuite.com/"></li>
+<li data-name="IT Help" data-link="https://it.amazon.com/"></li>
+<li data-name="Replenishment Tracker" data-link="https://trex-dub.dub.proxy.amazon.com/"></li>
+<li data-name="ICQA DI Portal" data-link="https://eu-icqa-inbound.corp.amazon.com/"></li>
+<li data-name="FUD CX Hunter" data-link="https://reactive-hunter.eu-aces.amazon.dev/"></li>
+<li data-name="KNET" data-link="https://knet.csod.com/client/knet/default.aspx"></li>
+<li data-name="Midway" data-link="https://midway-auth.amazon.com/"></li>
+<li data-name="POD Console" data-link="https://pod-console-eu.corp.amazon.com/"></li>
+<li data-name="POD Manager" data-link="https://ar-podmanager-dub.dub.proxy.amazon.com/"></li>
+<li data-name="Hot PO" data-link="https://unified-portal-eu.corp.amazon.com/#/hotpo"></li>
+<li data-name="ICQA Home" data-link="https://eu-icqa-home.corp.amazon.com/"></li>
+<li data-name="Mastermind Tag Generator" data-link="https://mastermind.dub.amazon.com/tag_generator/"></li>
+<li data-name="Field Sense" data-link="https://survey.fieldsense.whs.amazon.dev/"></li>
+<li data-name="FBA Transportation" data-link="https://fba-ind-trans-console-eu-prod.aka.amazon.com/index"></li>
+<li data-name="Data Central" data-link="https://datacentral.a2z.com/"></li>
+<li data-name="Tunnel Vision" data-link="https://tunnel-insights-eu.aka.amazon.com/"></li>
+<li data-name="Umbrella" data-link="https://dub.umbrella.amazon.dev"></li>
+<li data-name="MFI Share Point" data-link="https://share.amazon.com/sites/EUMFI/SitePages/Home.aspx"></li>
+<li data-name="Vantage" data-link="https://vantage.amazon.com/app/home"></li>
+<li data-name="Prep WIKI" data-link="https://w.amazon.com/bin/view/EU_ISS/EU_Prep/"></li>
+<li data-name="ARGUS" data-link="https://argus.aka.amazon.com/"></li>
+<li data-name="HAZMAT Compliance Search" data-link="https://quick-document-search.metadata-exchange.hs3c.a2z.com/index.html"></li>
+<li data-name="Sage" data-link="https://sage.amazon.dev/"></li>
+<li data-name="Carton Timeline" data-link="https://aft-carton-timeline-eu.aka.amazon.com/"></li>
+<li data-name="Camp" data-link="https://camp.corp.amazon.com/"></li>
+<li data-name="Voyager" data-link="https://voyager.aka.amazon.com/"></li>
+<li data-name="Inbound WIKI" data-link="https://w.amazon.com/bin/view/EU_Inbound/"></li>
+<li data-name="ACES" data-link="https://amazonprojects.corp.amazon.com/sites/WWACES/default.aspx"></li>
+<li data-name="FUD Reports" data-link="https://aft-fud-reports.iad.amazon.com/#/LBA5/FUD_By_Location"></li>
+<li data-name="FC Research" data-link="http://fcresearch-eu.aka.amazon.com/"></li>
+<li data-name="Transshipment Sort Tool" data-link="https://fc-transshipment-sort-tool-LBA5.aka.amazon.com/"></li>
+<li data-name="https://aft-poirot-website-dub.dub.proxy.amazon.com/?tool=V3" data-link="Sideline"></li>
+<li data-name="FC Menu Secure" data-link="https://fcmenu-dub-regionalized.corp.amazon.com/secure/login"></li>
+<li data-name="Login" data-link="https://fcmenu-dub-regionalized.corp.amazon.com/secure/login"></li>
+<li data-name="CALM Code" data-link="https://fcmenu-dub-regionalized.corp.amazon.com/LBA5/calmCode"></li>
+<li data-name="Chime Download" data-link="https://clients.chime.aws/win/latest"></li>
+<li data-name="LBA5 Linktree" data-link="https://linktr.ee/lba5"></li>
+<li data-name="Pallet Preditor" data-link="https://taskui-gateway-dub.corp.amazon.com/"></li>
+<li data-name="Pallet Receive" data-link="https://taskui-gateway-dub.corp.amazon.com/?listingID=e65362f2-7fed-4017-b883-a8ca100904cf&training=true&hideTasks=1#initialized"></li>
+<li data-name="Label Unlabel" data-link="http://aft-label-unlabeled-case-prod-eu.aka.amazon.com/"></li>
+<li data-name="PID ISA" data-link="http://aftvisiontunnelpropertiesapp-eu.aka.amazon.com/"></li>
+<li data-name="Decant" data-link="https://fc-stowapp-dub.amazon.com/decant"></li>
+<li data-name="Keepa" data-link="https://keepa.com/"></li>
+<li data-name="Receive" data-link="https://lba5.webui.receive.aka.amazon.com/"></li>
+<li data-name="Diver FUD Misses" data-link="https://diver.qts.amazon.dev/tools/fcdi/dashboards/fud_misses?end_date=&location_name=LBA5&start_date="></li>
+<li data-name="Tote Routing Tool" data-link="https://routing-tool-dub.aka.amazon.com/tote-route"></li>
+<li data-name="FC SKU Flip" data-link="http://aft-qt-eu.aka.amazon.com/app/fcskuflip?experience=Desktop"></li>
+<li data-name="SIOB" data-link="https://pulsar.corp.amazon.com/astrea/saoc/"></li>
+<li data-name="SIOC" data-link="https://cpex-fc-eu.amazon.com/sioc/"></li>
+<li data-name="ICQA Adjustment Search" data-link="https://eu-icqa-star.corp.amazon.com/legacy_app/adjustment_search"></li>
+<li data-name="Apollo" data-link="https://eu-icqa-audit.corp.amazon.com/"></li>
+<li data-name="Optimus" data-link="https://optimus.qts.amazon.dev/"></li>
+<li data-name="Diver" data-link="https://diver.qts.amazon.dev/"></li>
+<li data-name="EU ICQA WIKI" data-link="https://w.amazon.com/bin/view/EU-ICQA/"></li>
+<li data-name="Diver Transshipment Search" data-link="https://diver.qts.amazon.dev/tools/transshipment/dashboards/transfer_details?destination_warehouse_id=LBA5"></li>
+<li data-name="Transhipment Portal" data-link="http://fc-inbound-transshipment-portal-prod-dub.dub.proxy.amazon.com/SearchTransfer/"></li>
+<li data-name="Grafana" data-link="https://grafana-prod.prod.eu-west-1.grafana.insights.aft.amazon.dev/d/qCytwCoGz/myspd-lane-status?orgId=1&refresh=30s&var-Building=LBA5&var-Sorter=InboundSorter&var-Sub_Sorter=receivesorter1&var-Lane=All&from=now-1h&to=now"></li>
+<li data-name="SCADA" data-link="https://quip-amazon.com/1sWkATCaXD5m/Vision-Client-Launcher"></li>
+<li data-name="One Stop Shop" data-link="https://prod.launch-tools.gess-launch.amazon.dev/fc_onestopshop?fc=LBA5"></li>
+<li data-name="Location Finder" data-link="https://fc-locations.amazon.com/?fc=LBA5"></li>
+<li data-name="TT Hazmat" data-link="https://tt.amazon.com/issues?q=%7B%22AND%22%3A%7B%22status%22%3A%7B%22OR%22%3A%5B%22Researching%22%2C%7B%22OR%22%3A%5B%22Pending%22%2C%7B%22OR%22%3A%5B%22Resolved%22%2C%7B%22OR%22%3A%5B%22Work%20In%20Progress%22%2C%7B%22OR%22%3A%5B%22Assigned%22%2C%22Closed%22%5D%7D%5D%7D%5D%7D%5D%7D%5D%7D%2C%22AND%22%3A%7B%22severity%22%3A%7B%22OR%22%3A%5B%221%22%2C%7B%22OR%22%3A%5B%222%22%2C%7B%22OR%22%3A%5B%222.5%22%2C%7B%22OR%22%3A%5B%223%22%2C%7B%22OR%22%3A%5B%224%22%2C%7B%22OR%22%3A%5B%225%22%2C%22N%22%5D%7D%5D%7D%5D%7D%5D%7D%5D%7D%5D%7D%2C%22tags%22%3A%22LBA5-HAZMAT%22%7D%7D%7D&id=f387b2ec-71f3-4f35-9517-f2c865ba90c7"></li>
+<li data-name="TT Oldest" data-link="https://tt.amazon.com/issues?q=%7B%22AND%22%3A%7B%22status%22%3A%7B%22OR%22%3A%5B%22Assigned%22%2C%7B%22OR%22%3A%5B%22Researching%22%2C%7B%22OR%22%3A%5B%22Work%20In%20Progress%22%2C%22Pending%22%5D%7D%5D%7D%5D%7D%2C%22AND%22%3A%7B%22severity%22%3A%7B%22OR%22%3A%5B%221%22%2C%7B%22OR%22%3A%5B%222%22%2C%7B%22OR%22%3A%5B%222.5%22%2C%7B%22OR%22%3A%5B%223%22%2C%7B%22OR%22%3A%5B%224%22%2C%7B%22OR%22%3A%5B%225%22%2C%22N%22%5D%7D%5D%7D%5D%7D%5D%7D%5D%7D%5D%7D%2C%22AND%22%3A%7B%22category%22%3A%22iss%22%2C%22AND%22%3A%7B%22country%22%3Anull%2C%22buildingId%22%3A%22LBA5%22%7D%7D%7D%7D%7D&id=6b633a1a-0189-4da6-810f-ad6afad9fe10"></li>
+<li data-name="Vantage Drive Utilisation" data-link="https://vantage.amazon.com/app/rmekpi-dashboards/site-overview?customer=AMZN&warehouse=LBA5&region=eu-west-1&zones=paKivaA02%2CpaKivaA03%2CpaKivaA04&vntgDateRange=LAST-HOUR"></li>
+<li data-name="Roboscout Stow Headcount" data-link="https://roboscout.amazon.com/dashboards/10390/?sites=(LBA5)"></li>
+<li data-name="Roboscout Stow Takt Time" data-link="https://roboscout.amazon.com/analyze/19851/2426/?sites=(LBA5)"></li>
+<li data-name="Quip ISS Backlog Report" data-link="https://quip-amazon.com/vITRApj8jnwG/DAYS#temp:C:VfI81f48aa21d4a49278077da80f">
+</li><li data-name="Diver" data-link="https://diver.qts.amazon.dev/"></li>
+</li><li data-name="LBA5 WIKI" data-link="https://w.amazon.com/bin/view/LBA5"></li>
+</li><li data-name="LBA5 Managers WIKI" data-link="https://w.amazon.com/bin/view/LBA5-PXT-Wiki/"></li>
+</li><li data-name="Unmanifested trailers WIKI" data-link="https://w.amazon.com/bin/view/UnmanifestedLoadsRecoveryVRIDRedirect_trailers/"></li>
+</li><li data-name="Central ISS WIKI" data-link="https://w.amazon.com/bin/view/CISS/"></li>
+</li><li data-name="MFI" data-link="https://share.amazon.com/sites/EUMFI/SiteAssets/SitePages/MFI_Researcher_SOP/FBA%20Missing%20From%20Inbound%20Flowchart%20-%20English%20Version.pdf"></li>
+</li><li data-name="Bin check Ticket Blurbs WIKI" data-link="https://w.amazon.com/bin/view/CISS/Training/TicketBlurbs"></li>
+</li><li data-name="Bin check Wave CTI" data-link="https://w.amazon.com/bin/view/CISS/WAVE_2.0CTIs/"></li>
+</li><li data-name="Career Gatway WIKI" data-link="https://w.amazon.com/bin/view/CareerDevGateway/"></li>
+</li><li data-name="Acronym Central WIKI" data-link="https://w.amazon.com/index.php/Acronym_Central"></li>
+</li><li data-name="EU ICQA WIKI" data-link="https://w.amazon.com/bin/view/EU-ICQA/"></li>
+</li><li data-name="Inbound WIKI" data-link="https://w.amazon.com/bin/view/EU_Inbound/"></li>
+</li><li data-name="Managers Reference Guide WIKI" data-link="https://w.amazon.com/bin/view/ManagersReferenceGuide"></li>
+</li><li data-name="EU Process & Systems Engineers WIKI" data-link="https://w.amazon.com/bin/view/EUACESPSE/"></li>
+</li><li data-name="Global Customer Fulfillment WIKI" data-link="https://w.amazon.com/bin/view/GlobalCustomerFulfillment_ACES/Inbound/"></li>
+</li><li data-name="Sideline" data-link="https://aft-poirot-website-dub.dub.proxy.amazon.com/?tool=V3"></li>
+
+    </ul>
+  </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var openModalImages = document.querySelectorAll('[id^=openModalImage]');
+    var openModalLinks = document.querySelectorAll('a[href="javascript:void(0)"]');
+    var modals = document.querySelectorAll('.modal');
+    var spans = document.querySelectorAll('.close');
+
+    openModalImages.forEach(function(img, index) {
+        img.addEventListener('click', function() {
+            modals.forEach(function(modal) {
+                modal.style.display = 'none';
+            });
+            document.getElementById('myModal' + (index + 1)).style.display = 'flex';
+        });
+    });
+
+    openModalLinks.forEach(function(link, index) {
+        link.addEventListener('click', function() {
+            modals.forEach(function(modal) {
+                modal.style.display = 'none';
+            });
+            document.getElementById('myModal' + (index + 1 + openModalImages.length)).style.display = 'flex';
+        });
+    });
+
+    spans.forEach(function(span) {
+        span.addEventListener('click', function() {
+            span.closest('.modal').style.display = 'none';
+        });
+    });
+
+    window.addEventListener('click', function(event) {
+        modals.forEach(function(modal) {
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        });
+    });
+
+    var links = document.querySelectorAll('.modal-content a');
+    links.forEach(function(link) {
+        link.addEventListener('click', function() {
+            link.closest('.modal').style.display = 'none';
+        });
+    });
+});
+
+function closeModal(modalNumber) {
+    document.getElementById('myModal' + modalNumber).style.display = 'none';
+}
+</script>
+<script>
+// Search functionality
+document.getElementById('search-input').addEventListener('input', function() {
+    var query = this.value.toLowerCase();
+    var results = [];
+    
+    if (query.length >= 3) { // Start searching after 3 characters
+        var nameLinkDatabase = document.querySelectorAll('#name-link-database li');
+        
+        nameLinkDatabase.forEach(function(item) {
+            var name = item.getAttribute('data-name').toLowerCase();
+            if (name.includes(query)) {
+                results.push({
+                    name: item.getAttribute('data-name'),
+                    link: item.getAttribute('data-link')
+                });
+            }
+        });
+    }
+
+    displayResults(results);
+});
+
+function displayResults(results) {
+    var resultsContainer = document.getElementById('search-results');
+    resultsContainer.innerHTML = '';
+
+    if (results.length > 0) {
+        results.forEach(function(result) {
+            var li = document.createElement('li');
+            var a = document.createElement('a');
+            a.href = result.link;
+            a.target = '_blank';
+            a.textContent = result.name;
+            li.appendChild(a);
+            resultsContainer.appendChild(li);
+        });
+        resultsContainer.classList.add('visible'); // Show the results dropdown
+    } else {
+        resultsContainer.classList.remove('visible'); // Hide the results dropdown if no results
+    }
+}
+
+// Optional: Hide the dropdown when clicking outside
+document.addEventListener('click', function(event) {
+    var searchInput = document.getElementById('search-input');
+    var resultsContainer = document.getElementById('search-results');
+    
+    if (!searchInput.contains(event.target) && !resultsContainer.contains(event.target)) {
+        resultsContainer.classList.remove('visible');
+    }
+});
+</script>
+</body>
+
+</html>
